@@ -1,0 +1,39 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Topic {
+  id          String   @id // e.g. "coding"
+  name        String
+  description String
+  icon        String?
+  promptCount Int      @default(0)
+
+  prompts     Prompt[]
+}
+
+model Prompt {
+  id          String   @id // e.g. "auth_flow"
+  title       String
+  description String
+  template    String
+
+  topicId     String
+  topic       Topic    @relation(fields: [topicId], references: [id], onDelete: Cascade)
+
+  examples    Example[]
+}
+
+model Example {
+  id          String   @id @default(cuid())
+  input       String
+  output      String
+  
+  promptId    String
+  prompt      Prompt   @relation(fields: [promptId], references: [id], onDelete: Cascade)
+}
