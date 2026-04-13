@@ -9,9 +9,9 @@ import {
   CommandItem,
   CommandList,
 } from '@/components/ui/command';
-import { MOCK_PROMPTS } from '@/mock/prompts';
 import { Search, FileText } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { ITEMS, searchItems } from '@/content';
 
 interface SearchPopupProps {
   open: boolean;
@@ -20,6 +20,7 @@ interface SearchPopupProps {
 
 export function SearchPopup({ open, setOpen }: SearchPopupProps) {
   const router = useRouter();
+  const [query, setQuery] = React.useState('');
 
   React.useEffect(() => {
     const down = (e: KeyboardEvent) => {
@@ -32,22 +33,30 @@ export function SearchPopup({ open, setOpen }: SearchPopupProps) {
     return () => document.removeEventListener('keydown', down);
   }, [setOpen]);
 
+  const results = React.useMemo(() => {
+    if (!query) return ITEMS.slice(0, 10); // Show first 10 when empty
+    return searchItems(query).slice(0, 20); // Show max 20 results
+  }, [query]);
+
   const handleSelect = (id: string, topicId: string) => {
     setOpen(false);
-    // In a real app, maybe we open the drawer directly or navigate to a specific page
-    // For now, let's navigate to the topic page if we are not there
-    router.push(`/topic/${topicId}?prompt=${id}`);
+    setQuery('');
+    router.push(`/prompt/${id}`);
   };
 
   return (
     <CommandDialog open={open} onOpenChange={setOpen}>
-      <CommandInput placeholder="Search all prompts... (e.g. Code Refactor, Marketing)" />
+      <CommandInput 
+        placeholder="Search all prompts... (e.g. Code Refactor, Marketing)" 
+        onValueChange={setQuery}
+        value={query}
+      />
       <CommandList className="pb-2">
         <CommandEmpty className="py-12 text-center text-sm text-neutral-500 dark:text-neutral-400">
           No prompts found. Try a different search term.
         </CommandEmpty>
-        <CommandGroup heading="Available Prompts" className="px-2">
-          {MOCK_PROMPTS.map((prompt) => (
+        <CommandGroup heading={query ? "Search Results" : "Featured Prompts"} className="px-2">
+          {results.map((prompt) => (
             <CommandItem
               key={prompt.id}
               onSelect={() => handleSelect(prompt.id, prompt.topicId)}
@@ -59,7 +68,7 @@ export function SearchPopup({ open, setOpen }: SearchPopupProps) {
               <div className="flex flex-col overflow-hidden">
                 <span className="truncate font-semibold text-neutral-900 dark:text-neutral-100">{prompt.title}</span>
                 <span className="truncate text-xs text-neutral-500 dark:text-neutral-400">
-                  {prompt.description}
+                  {prompt.description || `${prompt.topicId} > ${prompt.subTopicId}`}
                 </span>
               </div>
               <span className="ml-auto flex shrink-0 items-center rounded-full bg-neutral-100 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-neutral-600 ring-1 ring-inset ring-neutral-200 dark:bg-neutral-900 dark:text-neutral-400 dark:ring-neutral-800">

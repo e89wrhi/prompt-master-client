@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import { MOCK_TOPICS } from '@/mock/prompts';
 import { TopicCard } from './components/topic-card';
 import DetailWidthWrapper from '@/components/layout/detail-width-wrapper';
 import { Sparkles, ArrowRight } from 'lucide-react';
+import { TOPICS } from '@/content';
 
 export default function HomePage() {
   return (
@@ -47,7 +47,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {MOCK_TOPICS.map((topic, i) => (
+            {TOPICS.map((topic, i) => (
               <div key={topic.id} className="animate-in fade-in slide-in-from-bottom-8 duration-700 fill-mode-both" style={{ animationDelay: `${i * 100}ms` }}>
                 <TopicCard topic={topic} />
               </div>

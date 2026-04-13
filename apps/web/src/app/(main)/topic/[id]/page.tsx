@@ -1,8 +1,8 @@
 import { Suspense } from 'react';
-import { MOCK_TOPICS, MOCK_PROMPTS } from '@/mock/prompts';
 import { notFound } from 'next/navigation';
 import TopicPageClient from './topic-page-client';
 import DetailWidthWrapper from '@/components/layout/detail-width-wrapper';
+import { ITEMS, TOPICS } from '@/content';
 
 interface PageProps {
   params: Promise<{
@@ -12,13 +12,13 @@ interface PageProps {
 
 export default async function TopicPage({ params }: PageProps) {
   const { id } = await params;
-  const topic = MOCK_TOPICS.find((t) => t.id === id);
+  const topic = TOPICS.find((t) => t.id === id);
 
   if (!topic) {
     notFound();
   }
 
-  const prompts = MOCK_PROMPTS.filter((p) => p.topicId === id);
+  const prompts = ITEMS.filter((p) => p.topicId === id);
 
   return (
     <DetailWidthWrapper className="min-h-screen">
