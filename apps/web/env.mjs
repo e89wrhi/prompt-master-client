@@ -11,6 +11,4 @@ export const env = createEnv({
     // Client-side
     NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
   },
-  // Skip validation during CI/build if SKIP_ENV_VALIDATION is set
-  skipValidation: !!process.env.SKIP_ENV_VALIDATION,
 });
