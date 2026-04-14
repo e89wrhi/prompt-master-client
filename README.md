@@ -9,14 +9,17 @@ PromptMaster is a premium collection of production-ready AI prompts designed to 
 ## ⚙️ Project Links
 
 - ⚙️ Resource → https://github.com/e89wrhi/prompt-master
-
 ## 🌟 Features
 
-- **Categorized Library**: Explore prompts across Coding, Creative, Education, Marketing, Productivity, and more.
-- **Instant Copy & View**: One-click template copying and detailed example views for every prompt.
-- **Deep Linking**: Share specific prompts or topics directly with URL-based state.
-- **Premium UI**: Built with a neutral, minimal design system supporting seamless Dark Mode.
-- **Modern Tech Stack**: Powered by Next.js 15, React 19, Tailwind CSS v4, and Lucide Icons.
+- **Global Command Search**: Lightning-fast **Cmd+K** (or Ctrl+K) popup interface to find any template in the library instantly with real-time indexing.
+- **Categorized Discovery**: Explore professional prompts organized across domains like **Coding, Creative, Education, Marketing, Productivity**, and more.
+- **Advanced Filtering**: Navigate a nested architecture that allows you to browse by main topic or drill down into granular subtopics for specific use cases.
+- **Standalone Prompt Pages**: Every template features a deep-linkable URL, detailed metadata, usage examples, and high-fidelity markdown rendering.
+- **Instant Copy & View**: Optimized workflow with one-click "Copy Template" actions and visual toast feedback for immediate use.
+- **Template Editor**: Interactive **Edit Prompt Template** mode to customize variables and structures directly in the browser before deployment.
+- **Deep Linking**: Share specific prompts, filtered categories, or search results directly via persistent URL-based state management.
+- **Premium UI/UX**: A neutral, minimalist design system supporting seamless **Dark Mode**, fluid layout animations, and full mobile responsiveness.
+- **Modern Tech Stack**: Engineered with **Next.js 15**, **React 19**, **Tailwind CSS v4**, and **Lucide Icons** for peak performance.
 
 ## 🏗️ Architecture
 
@@ -31,13 +34,6 @@ This repository is structured as a monorepo using [Turborepo](https://turbo.buil
 - **`packages/ui`**: Shared UI component library (Neutral-themed).
 - **`packages/lib`**: Shared utilities and type definitions.
 - **`packages/typescript-config`**: Shared TypeScript configurations.
-
-## 📸 Screenshots
-
-<p align="center">
-  <img src="assets/ss/ss1.png" width="45%" border="1" />
-  <img src="assets/ss/ss2.png" width="45%" border="1" />
-</p>
 
 ## 🚀 Getting Started
 
