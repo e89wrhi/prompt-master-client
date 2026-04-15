@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { TopicCard } from './components/topic-card';
 import DetailWidthWrapper from '@/components/layout/detail-width-wrapper';
-import { Sparkles, ArrowRight } from 'lucide-react';
+import { Sparkles, ArrowRight, File, FileEdit } from 'lucide-react';
 import { TOPICS } from '@/content';
 
 export default function HomePage() {
@@ -34,8 +34,8 @@ export default function HomePage() {
             <Link href="#library" className="group inline-flex h-12 items-center justify-center rounded-full bg-neutral-900 px-8 font-medium text-white transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-neutral-900/20 dark:bg-white dark:text-black dark:hover:shadow-white/10">
               Browse Library
             </Link>
-            <Link href="/topic/coding" className="inline-flex h-12 items-center justify-center rounded-full border border-neutral-200 bg-white/50 px-8 font-medium text-neutral-900 backdrop-blur transition-all hover:bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900/50 dark:text-white dark:hover:bg-neutral-800">
-              View Examples <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            <Link href="/custom-prompt" className="inline-flex h-12 items-center justify-center rounded-full bg-amber-500 hover:bg-amber-600 px-8 font-medium text-neutral-900 backdrop-blur transition-all dark:text-white">
+              Custsom <FileEdit className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
           </div>
         </header>
