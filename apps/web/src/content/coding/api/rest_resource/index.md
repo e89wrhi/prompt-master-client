@@ -1,3 +1,9 @@
+---
+id: rest_resource
+topicId: coding
+subTopicId: api
+title: RESTful Resource Blueprint
+---
 # Template: RESTful Resource Blueprint
 
 Use this template when you need a production-ready file structure and implementation for a new REST API resource. It enforces architectural constraints, input validation, and security out of the box.

@@ -35,30 +35,18 @@ export default async function PromptPage({ params }: PageProps) {
     
     const fullPath = path.join(baseContentPath, displayPrompt.filePath);
     const fileContent = await fs.readFile(fullPath, 'utf8');
+    const { data, content } = require('gray-matter')(fileContent);
 
-    // Simple parsing logic to pull Title, Description, and Template
-    const titleMatch = fileContent.match(/^# Template: (.+)$/m);
-    if (titleMatch && titleMatch[1]) displayPrompt.title = titleMatch[1].trim();
-
-    const templateHeader = '## 📋 Prompt Template';
-    const headerIndex = fileContent.indexOf(templateHeader);
+    if (data.title) displayPrompt.title = data.title;
+    if (data.description) displayPrompt.description = data.description;
     
-    if (headerIndex !== -1) {
-      // Description is usually between title and template
-      const beforeTemplate = fileContent.substring(0, headerIndex);
-      const lines = beforeTemplate.split('\n');
-      displayPrompt.description = lines
-        .filter(l => l.trim() && !l.startsWith('#'))
-        .join(' ')
-        .trim();
-
-      // Template is inside the first ```text block after the header
-      const afterHeader = fileContent.substring(headerIndex);
-      const templateMatch = afterHeader.match(/```text\n([\s\S]*?)```/);
-      if (templateMatch && templateMatch[1]) {
-        displayPrompt.template = templateMatch[1].trim();
-      }
+    // We want the raw content as the template. But we could also selectively strip the # Template header if it exists.
+    let finalTemplate = content.trim();
+    if (finalTemplate.startsWith('# Template:')) {
+       finalTemplate = finalTemplate.split('\n').slice(1).join('\n').trim();
     }
+    
+    displayPrompt.template = finalTemplate;
 
     // Attempt to load examples from eg.md in the same folder
     const dirPath = path.dirname(fullPath);

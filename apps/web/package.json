@@ -4,14 +4,15 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3000",
-    "build": "next build",
+    "dev": "npm run sync-prompts && next dev --port 3000",
+    "build": "npm run sync-prompts && next build",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
     "preview": "next build && next start",
-    "vercel-build": "npm rebuild sharp && next build"
+    "vercel-build": "npm rebuild sharp && npm run sync-prompts && next build",
+    "sync-prompts": "npx tsx scripts/sync-prompts.ts"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.7.4",
@@ -27,6 +28,7 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "concurrently": "^8.2.2",
+    "gray-matter": "^4.0.3",
     "i18next": "^25.2.1",
     "js-cookie": "^3.0.5",
     "lucide-react": "^0.562.0",

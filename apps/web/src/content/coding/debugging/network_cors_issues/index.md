@@ -1,3 +1,9 @@
+---
+id: network_cors_issues
+topicId: coding
+subTopicId: debugging
+title: Network & CORS Debugging
+---
 # Template: Network & CORS Debugging
 
 Use this template when dealing with elusive network errors like Preflight failures, bad proxies, SSL cert issues, or weird HTTP 502s.

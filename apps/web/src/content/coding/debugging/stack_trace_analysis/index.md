@@ -1,3 +1,9 @@
+---
+id: stack_trace_analysis
+topicId: coding
+subTopicId: debugging
+title: Stack Trace & Error Analysis
+---
 # Template: Stack Trace & Error Analysis
 
 Use this template when you're faced with a massive, cryptic stack trace and need the AI to isolate the root cause without hallucinating.

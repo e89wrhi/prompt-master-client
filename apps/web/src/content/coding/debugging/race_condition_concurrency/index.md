@@ -1,3 +1,9 @@
+---
+id: race_condition_concurrency
+topicId: coding
+subTopicId: debugging
+title: Concurrency & Race Conditions
+---
 # Template: Concurrency & Race Conditions
 
 Use this template when you are experiencing intermittent, difficult-to-reproduce bugs that usually indicate a data race, deadlock, or async timing issue.

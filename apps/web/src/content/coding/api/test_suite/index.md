@@ -1,3 +1,9 @@
+---
+id: test_suite
+topicId: coding
+subTopicId: api
+title: Comprehensive Test Suite
+---
 # Template: Comprehensive Test Suite
 
 Use this template to generate robust unit or integration tests for your existing backend code. This overrides the AI's tendency to write fragile "happy-path only" test cases.

@@ -1,3 +1,9 @@
+---
+id: external_integration
+topicId: coding
+subTopicId: api
+title: External API Integration
+---
 # Template: External API Integration
 
 Use this template when your API needs to securely consume a third-party service (like Stripe, Twilio, or an external weather API). It ensures your implementation is highly resilient to external failure.

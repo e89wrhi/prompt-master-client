@@ -1,3 +1,9 @@
+---
+id: memory_leak_hunting
+topicId: coding
+subTopicId: debugging
+title: Memory Leak & Performance Hunting
+---
 # Template: Memory Leak & Performance Hunting
 
 Use this template when your application is consuming too much RAM/CPU over time, and you need the AI to identify potential leak vectors or O(N^2) bottlenecks.

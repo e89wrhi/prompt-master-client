@@ -1,3 +1,9 @@
+---
+id: database_migration
+topicId: coding
+subTopicId: api
+title: Database Model & Migration
+---
 # Template: Database Model & Migration
 
 Use this template when you need to design a robust database schema, generate ORM models, or write raw SQL migrations. It enforces database optimization best practices like indexing and foreign constraints.

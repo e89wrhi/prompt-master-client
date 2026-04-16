@@ -1,3 +1,9 @@
+---
+id: premiere_pro_transitions
+topicId: video
+subTopicId: editing
+title: Detailed NLE Transitions
+---
 # Template: Detailed NLE Transitions
 
 Use this template when asking an AI to generate ExtendScript for Premiere Pro, or when creating step-by-step keyframe instructions for manual digital transitions (like whip pans, zooms, and speed ramps).

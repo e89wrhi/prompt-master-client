@@ -1,3 +1,9 @@
+---
+id: auth_flow
+topicId: coding
+subTopicId: api
+title: Secure Authentication Flow
+---
 # Template: Secure Authentication Flow
 
 Use this template when starting a new authentication or authorization system. It puts the AI in a security-first mindset, ensuring the generated code adheres to modern defense-in-depth principles.

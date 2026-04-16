@@ -1,3 +1,9 @@
+---
+id: graphql_schema
+topicId: coding
+subTopicId: api
+title: GraphQL Schema & Resolvers
+---
 # Template: GraphQL Schema & Resolvers
 
 Use this template when building out new GraphQL modules. It ensures the AI understands your types, inputs, mutations, and adheres to standard GraphQL naming conventions.

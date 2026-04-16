@@ -1,3 +1,9 @@
+---
+id: dependency_hell
+topicId: coding
+subTopicId: debugging
+title: 'Dependency, Build & Config Hell'
+---
 # Template: Dependency, Build & Config Hell
 
 Use this template when your app refuses to build, compile, or start due to dependency versions, webpack configurations, or environmental mismatches.
