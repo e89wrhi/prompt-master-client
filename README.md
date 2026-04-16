@@ -47,7 +47,7 @@ This repository is structured as a monorepo using [Turborepo](https://turbo.buil
 1. Clone the repository and navigate into it:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/e89wrhi/prompt-master-client
    cd prompt-library-client
    ```
 
