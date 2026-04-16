@@ -7,7 +7,6 @@ import { Button } from '@/components/ui/button';
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import { SearchPopup } from './search-popup';
-import DetailWidthWrapper from '@/components/layout/detail-width-wrapper';
 
 export function NavBar() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -25,7 +24,10 @@ export function NavBar() {
         <div className="flex h-14 items-center justify-between rounded-full border border-neutral-200/60 bg-white/70 px-6 shadow-lg shadow-neutral-200/20 backdrop-blur-xl dark:border-neutral-800/60 dark:bg-neutral-950/70 dark:shadow-black/40 transition-all">
           {/* Left: Logo & Name */}
           <div className="flex items-center gap-8">
-            <Link href="/" className="group flex items-center space-x-3 transition-opacity">
+            <Link
+              href="/"
+              className="group flex items-center space-x-3 transition-opacity"
+            >
               <div className="relative h-8 w-8 overflow-hidden rounded-md transition-transform duration-300 group-hover:scale-105">
                 <Image
                   src="/logo.png"
@@ -38,10 +40,19 @@ export function NavBar() {
                 PromptMaster
               </span>
             </Link>
-            
+
             <nav className="hidden md:flex items-center gap-6">
-              <Link href="/image" className="text-sm font-medium text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-50 transition-colors">
+              <Link
+                href="/image"
+                className="text-sm font-medium text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-50 transition-colors"
+              >
                 Images
+              </Link>
+              <Link
+                href="/custom-prompt"
+                className="text-sm font-medium text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-50 transition-colors"
+              >
+                Workspace
               </Link>
             </nav>
           </div>

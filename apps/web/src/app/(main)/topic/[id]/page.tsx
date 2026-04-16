@@ -1,4 +1,3 @@
-import { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import TopicPageClient from './topic-page-client';
 import DetailWidthWrapper from '@/components/layout/detail-width-wrapper';

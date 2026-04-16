@@ -27,25 +27,28 @@ export default async function PromptPage({ params }: PageProps) {
   try {
     // Correctly resolve the content directory based on project structure
     const cwd = process.cwd();
-    const isInsideAppDir = cwd.toLowerCase().includes(`apps${path.sep}web`) || cwd.toLowerCase().includes('apps/web');
-    
-    const baseContentPath = isInsideAppDir 
-      ? path.join(cwd, 'src/content') 
+    const isInsideAppDir =
+      cwd.toLowerCase().includes(`apps${path.sep}web`) ||
+      cwd.toLowerCase().includes('apps/web');
+
+    const baseContentPath = isInsideAppDir
+      ? path.join(cwd, 'src/content')
       : path.join(cwd, 'apps/web/src/content');
-    
+
     const fullPath = path.join(baseContentPath, displayPrompt.filePath);
     const fileContent = await fs.readFile(fullPath, 'utf8');
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
     const { data, content } = require('gray-matter')(fileContent);
 
     if (data.title) displayPrompt.title = data.title;
     if (data.description) displayPrompt.description = data.description;
-    
+
     // We want the raw content as the template. But we could also selectively strip the # Template header if it exists.
     let finalTemplate = content.trim();
     if (finalTemplate.startsWith('# Template:')) {
-       finalTemplate = finalTemplate.split('\n').slice(1).join('\n').trim();
+      finalTemplate = finalTemplate.split('\n').slice(1).join('\n').trim();
     }
-    
+
     displayPrompt.template = finalTemplate;
 
     // Attempt to load examples from eg.md in the same folder
@@ -56,22 +59,24 @@ export default async function PromptPage({ params }: PageProps) {
       if (egContent) {
         // Simple example parsing (assuming blocks starting with ### Example)
         const examples: Example[] = [];
-        const sections = egContent.split('### ').filter(s => s.trim());
+        const sections = egContent.split('### ').filter((s) => s.trim());
         sections.forEach((s, idx) => {
           const lines = s.split('\n');
           const title = lines[0]!.trim();
           const content = s.substring(lines[0]!.length).trim();
-          
+
           // Pattern: Input then Output
-          const inputMatch = content.match(/\*\*Input:\*\*\n([\s\S]*?)(?=\*\*Output:\*\*|$)/);
+          const inputMatch = content.match(
+            /\*\*Input:\*\*\n([\s\S]*?)(?=\*\*Output:\*\*|$)/
+          );
           const outputMatch = content.match(/\*\*Output:\*\*\n([\s\S]*?)$/);
-          
+
           if (inputMatch && inputMatch[1] && outputMatch && outputMatch[1]) {
             examples.push({
               id: `ex-${idx}`,
               title,
               input: inputMatch[1].trim(),
-              output: outputMatch[1].trim()
+              output: outputMatch[1].trim(),
             });
           }
         });
@@ -80,9 +85,11 @@ export default async function PromptPage({ params }: PageProps) {
     } catch {
       // eg.md might not exist, that's fine
     }
-
   } catch (error) {
-    console.error(`Error reading prompt file: ${displayPrompt.filePath}`, error);
+    console.error(
+      `Error reading prompt file: ${displayPrompt.filePath}`,
+      error
+    );
   }
 
   return (
