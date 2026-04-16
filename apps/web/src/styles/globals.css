@@ -159,6 +159,22 @@
   scrollbar-width: none;
 }
 
+@utility custom-scrollbar {
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: oklch(0.708 0 0 / 0.2);
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: oklch(0.708 0 0 / 0.4);
+  }
+}
+
 @utility faded-bottom {
   @apply after:pointer-events-none after:absolute after:bottom-0 after:left-0 after:hidden after:h-32 after:w-full md:after:block;
   --tw-content: '';

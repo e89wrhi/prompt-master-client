@@ -38,6 +38,12 @@ export function NavBar() {
                 PromptMaster
               </span>
             </Link>
+            
+            <nav className="hidden md:flex items-center gap-6">
+              <Link href="/image" className="text-sm font-medium text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-50 transition-colors">
+                Images
+              </Link>
+            </nav>
           </div>
 
           {/* Right: Search & Theme */}

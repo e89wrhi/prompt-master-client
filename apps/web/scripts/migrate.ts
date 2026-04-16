@@ -2,9 +2,18 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
+interface PromptItem {
+  id: string;
+  topicId: string;
+  subTopicId: string;
+  title: string;
+  description?: string;
+  filePath: string;
+}
+
 // use: npx tsx scripts/migrate.ts - to run migration
 // Quick and dirty way to parse the items.ts file without full TS compilation
-function parseItemsTs() {
+function parseItemsTs(): PromptItem[] {
   const fileContent = fs.readFileSync(path.join(process.cwd(), 'src/content/items.ts'), 'utf-8');
   
   // Find the array definition
@@ -19,7 +28,7 @@ function parseItemsTs() {
   
   // Dangerously evaluate the array string (safe since we control the file)
   // We need to provide dummy Prompt type or just eval it
-  const items = eval(`(${arrayString})`);
+  const items = eval(`(${arrayString})`) as PromptItem[];
   return items;
 }
 
@@ -45,16 +54,17 @@ for (const item of items) {
   }
   
   // Prepare new frontmatter
-  const frontmatter = {
+  const frontmatter: Record<string, any> = {
     id: item.id,
     topicId: item.topicId,
     subTopicId: item.subTopicId,
     title: item.title,
-    description: item.description || ''
   };
   
   // Only add non-empty fields to avoid clutter
-  if (!frontmatter.description) delete frontmatter.description;
+  if (item.description) {
+    frontmatter.description = item.description;
+  }
   
   // Write back to the file
   const updatedFileContent = matter.stringify(fileContent, frontmatter);
