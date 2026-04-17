@@ -1,3 +1,9 @@
+---
+id: memory_leak_hunting
+topicId: coding
+subTopicId: debugging
+title: Memory Leak & Performance Hunting
+---
 # Template: Advanced Memory Leak Hunting
 
 Use this template to identify, isolate, and fix memory leaks in high-performance applications. It is designed to act as a Performance Engineer who analyzes [HEAP_DUMPS], identifies detached DOM nodes, uncleaned listeners, or stale closures, and provides the architectural code fixes required to ensure your app stays under its memory budget during long-running sessions.

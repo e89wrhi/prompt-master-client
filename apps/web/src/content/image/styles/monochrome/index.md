@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/monochrome.png"
+id: monochrome
+topicId: image
+subTopicId: styles
+title: 'Style: Dramatic Monochrome'
+image: /images/styles/monochrome.png
 ---
 
 # Style: Dramatic Monochrome
 
-![Monochrome](file:///d:/dev/_projects/prompt-library/assets/images/monochrome.png)
+![Monochrome](/images/styles/monochrome.png)
 
 This style removes the distraction of color to focus entirely on [LIGHT], [SHADOW], [TEXTURE], and [FORM]. It ranges from high-contrast film noir to soft, minimalist grayscale, emphasizing the emotional weight and dramatic depth of a scene.
 

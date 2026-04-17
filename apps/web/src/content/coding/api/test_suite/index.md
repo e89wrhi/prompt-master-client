@@ -1,3 +1,9 @@
+---
+id: test_suite
+topicId: coding
+subTopicId: api
+title: Comprehensive Test Suite
+---
 # Template: Comprehensive API Test Suite
 
 Use this template to ensure the reliability and security of your API endpoints. It is designed to act as a Quality Assurance Engineer and Lead Developer—implementing [UNIT_TESTS] for business logic, [INTEGRATION_TESTS] for database and external service flows, and designing a [MOCKING_STRATEGY] that simulates real-world failure states to prevent production surprises.

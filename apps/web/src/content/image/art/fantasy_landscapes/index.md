@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/art/fantasy_landscapes.png"
+id: fantasy_landscapes
+topicId: image
+subTopicId: art
+title: Divine Fantasy Landscape Design
+image: /images/art/fantasy_landscapes.png
 ---
 
 # Template: Divine Fantasy Landscape Design

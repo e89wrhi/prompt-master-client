@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/marketing/ad_campaign_visuals.png"
+id: ad_campaign_visuals
+topicId: image
+subTopicId: marketing
+title: Professional Ad Campaign Visuals
+image: /images/marketing/ad_campaign_visuals.png
 ---
 
 # Template: Professional Ad Campaign Visuals

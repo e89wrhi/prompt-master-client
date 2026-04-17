@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/product/apparel_tshirt_designs.png"
+id: apparel_tshirt_designs
+topicId: image
+subTopicId: product
+title: High-Concept Apparel & T-Shirt Design
+image: /images/product/apparel_tshirt_designs.png
 ---
 
 # Template: High-Concept Apparel & T-Shirt Design

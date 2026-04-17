@@ -1,3 +1,9 @@
+---
+id: quarterly_planning_outlines
+topicId: productivity
+subTopicId: strategy
+title: Professional Quarterly Planning Outline
+---
 # Template: Professional Quarterly Planning Outline
 
 Use this template to translate high-level strategy into a concrete, executable roadmap for the next 90 days. It focuses on identifying "Big Rocks" (major initiatives), "Pebbles" (minor improvements), and the resource constraints that will dictate your team's velocity.

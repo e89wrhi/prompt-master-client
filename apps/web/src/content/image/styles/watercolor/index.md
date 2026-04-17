@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/watercolor.png"
+id: watercolor
+topicId: image
+subTopicId: styles
+title: 'Style: Fluid & Translucent Watercolor'
+image: /images/styles/watercolor.png
 ---
 
 # Style: Fluid & Translucent Watercolor
 
-![Watercolor](file:///d:/dev/_projects/prompt-library/assets/images/watercolor.png)
+![Watercolor](/images/styles/watercolor.png)
 
 This style celebrates the fluid, unpredictable nature of water-based pigments. It emphasizes [TRANSLUCENT_LAYERING], beautiful paper-[BLEED_EFFECTS], soft edges, and the distinct [GRAINY_TEXTURE] of cold-pressed watercolor paper.
 

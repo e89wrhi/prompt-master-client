@@ -1,3 +1,9 @@
+---
+id: blog_post_outlines
+topicId: marketing
+subTopicId: seo
+title: SEO-Optimized Blog Post Outlines
+---
 # Template: SEO-Optimized Blog Post Outlines
 
 Use this template to architect long-form content that ranks on Google and resonates with readers. It is designed to ensure your content matches exact search intent while incorporating a logical hierarchy of H1-H4 tags, semantic keywords, and internal linking to build topical authority.

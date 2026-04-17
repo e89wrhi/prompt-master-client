@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/cyberpink.png"
+id: cyberpink
+topicId: image
+subTopicId: styles
+title: 'Style: Neon-Soaked Cyberpunk (Cyberpink)'
+image: /images/styles/cyberpink.png
 ---
 
 # Style: Neon-Soaked Cyberpunk (Cyberpink)
 
-![Cyberpink](file:///d:/dev/_projects/prompt-library/assets/images/cyberpink.png)
+![Cyberpink](/images/styles/cyberpink.png)
 
 This style captures the "High Tech, Low Life" world of the future. It is defined by vibrant neon lights (Cyan, Magenta, Pink), rain-slicked urban streets, dense technology, volumetric fog, and a sharp contrast between glowing light and deep shadows.
 

@@ -1,3 +1,9 @@
+---
+id: curriculum_development
+topicId: education
+subTopicId: plans
+title: Strategic Curriculum Development
+---
 # Template: Strategic Curriculum Development
 
 Use this template to design a high-level educational roadmap for a long-form course or training program. It is designed to bridge the gap between "A list of topics" and a "Structured Learning Path" by utilizing Bloom's Taxonomy, clearly defined learning outcomes, and a logical progression of difficulty.

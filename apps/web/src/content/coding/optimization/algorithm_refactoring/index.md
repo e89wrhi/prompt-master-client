@@ -1,3 +1,9 @@
+---
+id: algorithm_refactoring
+topicId: coding
+subTopicId: optimization
+title: Strategic Algorithm Refactoring
+---
 # Template: Strategic Algorithm Refactoring
 
 Use this template to improve the performance and efficiency of your code's core logic. It is designed to act as a Computer Scientist and Algorithm Architect—analyzing [BIG_O_COMPLEXITY], identifying [NESTED_LOOP_BOTTLENECKS], selecting [SUPERIOR_DATA_STRUCTURES], and implementing [MEMOIZATION/CACHING] to ensure your code scales linearly with data growth.

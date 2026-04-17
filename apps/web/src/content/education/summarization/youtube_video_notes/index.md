@@ -1,3 +1,9 @@
+---
+id: youtube_video_notes
+topicId: education
+subTopicId: summarization
+title: Visual-Aware YouTube Video Notes
+---
 # Template: Visual-Aware YouTube Video Notes
 
 Use this template to convert educational YouTube videos into high-quality study guides. It is designed to go beyond the [TRANSCRIPT] by accounting for [VISUAL_ELEMENTS] (slides, charts, code demos), organizing the content by [TIME-STAMPED_SEGMENTS], and providing a "Should I Watch?" verdict based on the depth of the information provided.

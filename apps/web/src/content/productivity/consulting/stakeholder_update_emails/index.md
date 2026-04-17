@@ -1,3 +1,9 @@
+---
+id: stakeholder_update_emails
+topicId: productivity
+subTopicId: consulting
+title: Professional Stakeholder Update Email
+---
 # Template: Professional Stakeholder Update Email
 
 Use this template to maintain alignment and trust with project sponsors, clients, or leadership teams. It follows the "No Surprises" rule of management, providing a clear status of progress, identifying roadblocks before they become crises, and celebrating key wins.

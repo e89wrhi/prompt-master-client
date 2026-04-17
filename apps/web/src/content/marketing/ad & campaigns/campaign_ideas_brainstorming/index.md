@@ -1,3 +1,9 @@
+---
+id: campaign_ideas_brainstorming
+topicId: marketing
+subTopicId: ad & campaigns
+title: Campaign Strategy & Ideation
+---
 # Template: Campaign Strategy & Ideation
 
 Use this template to generate high-concept, multi-channel marketing campaign ideas. it is designed to move beyond "generic promotion" by defining a core "Big Idea" that connects emotional triggers with practical product benefits.

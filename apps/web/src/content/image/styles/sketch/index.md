@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/sketch.png"
+id: sketch
+topicId: image
+subTopicId: styles
+title: 'Style: Hand-Drawn Pencil Sketch'
+image: /images/styles/sketch.png
 ---
 
 # Style: Hand-Drawn Pencil Sketch
 
-![Sketch](file:///d:/dev/_projects/prompt-library/assets/images/sketch.png)
+![Sketch](/images/styles/sketch.png)
 
 This style focuses on the raw, tactile beauty of [PENCIL/GRAPHITE] on paper. It emphasizes visible [CROSS-HATCHING], graphite smudges, varying line weights, and the organic texture of [THICK_SKETCHBOOK_PAPER].
 

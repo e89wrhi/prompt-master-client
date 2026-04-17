@@ -1,3 +1,9 @@
+---
+id: api_gateway_routing
+topicId: coding
+subTopicId: system design
+title: Intelligent API Gateway & Routing Design
+---
 # Template: Intelligent API Gateway & Routing Design
 
 Use this template to design a robust entry point for your distributed systems. It is designed to act as a Cloud Architect and Networking Expert—architecting [REQUEST_ROUTING], implementing [RATE_LIMITING] protection, offloading [AUTHENTICATION] from microservices, and utilizing [SERVICE_DISCOVERY] to ensure your traffic is distributed efficiently and securely.

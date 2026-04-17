@@ -1,3 +1,9 @@
+---
+id: debate_opponent
+topicId: education
+subTopicId: tutoring
+title: The Devil's Advocate (Debate Opponent)
+---
 # Template: The Devil's Advocate (Debate Opponent)
 
 Use this template to sharpen your logical thinking and pressure-test your arguments. It is designed to act as a formidable, highly-educated [DEBATE_OPPONENT] who will [STEELMAN] your argument (make it as strong as possible) before systematically pointing out logical fallacies, lack of evidence, or ethical contradictions.

@@ -1,3 +1,9 @@
+---
+id: instagram_captions
+topicId: marketing
+subTopicId: social
+title: Engaging Instagram & Social Media Captions
+---
 # Template: Engaging Instagram & Social Media Captions
 
 Use this template to write social captions that stop the scroll and drive engagement. It is designed to balance visual storytelling with a clear text-based "Hook," a values-led "Body," and a friction-free call to action that directs users to your profile or website.

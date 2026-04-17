@@ -1,3 +1,9 @@
+---
+id: event_driven_systems
+topicId: coding
+subTopicId: system design
+title: Decoupled Event-Driven Architecture
+---
 # Template: Decoupled Event-Driven Architecture
 
 Use this template to design resilient, distributed systems that communicate through messages. It is designed to act as a Message Queue Expert and Distributed Systems Engineer—utilizing [PRODUCER-CONSUMER] patterns, [PUB/SUB] messaging (Kafka/RabbitMQ), ensuring [IDEMPOTENCY] in every consumer, and architecting [DEAD_LETTER_QUEUES] to handle system failures gracefully.

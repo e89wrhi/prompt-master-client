@@ -1,3 +1,9 @@
+---
+id: pomodoro_schedule_creation
+topicId: productivity
+subTopicId: time
+title: Professional Pomodoro Schedule Creation
+---
 # Template: Professional Pomodoro Schedule Creation
 
 Use this template to break through procrastination and maintain high-intensity focus without burning out. It is designed to group related tasks into "Deep Concentration" sprints (25 or 50 mins) and "Restorative" breaks (5 or 10 mins).

@@ -1,3 +1,9 @@
+---
+id: utm_tagging_strategy
+topicId: marketing
+subTopicId: analytics
+title: Professional UTM Tagging Strategy
+---
 # Template: Professional UTM Tagging Strategy
 
 Use this template to create a consistent, scalable UTM naming convention. It is designed to ensure that every click in your marketing ecosystem is perfectly attributed to the correct channel, campaign, and creative, preventing the "Unassigned" traffic chaos in GA4.

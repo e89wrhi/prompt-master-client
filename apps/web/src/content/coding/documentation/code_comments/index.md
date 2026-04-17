@@ -1,3 +1,9 @@
+---
+id: code_comments
+topicId: coding
+subTopicId: documentation
+title: High-Context Code Comments (JSDoc/Docstrings)
+---
 # Template: High-Context Code Comments (JSDoc/Docstrings)
 
 Use this template to add meaningful documentation directly into your source code. It is designed to act as a Senior Developer—stripping away "Obvious" comments that explain *how* the code works (e.g., `// Add one to i`) and replacing them with [WHY_COMMENTS] that explain [BUSINESS_LOGIC], handled [EDGE_CASES], and [PARAMETER_EXPECTATIONS].

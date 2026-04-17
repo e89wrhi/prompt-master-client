@@ -1,3 +1,9 @@
+---
+id: stack_trace_analysis
+topicId: coding
+subTopicId: debugging
+title: Stack Trace & Error Analysis
+---
 # Template: Expert Stack Trace Analysis
 
 Use this template to decipher cryptic error logs and find the "Needle in the Haystack" of complex runtime failures. It is designed to act as a Senior Debugger—reading traces from [BOTTOM_TO_TOP], isolating [USER_CODE] from [INTERNAL_LIBRARY_FRAMES], and mapping minified production errors back to their original source using [SOURCE_MAPS] and [LOGGING_CONTEXT].

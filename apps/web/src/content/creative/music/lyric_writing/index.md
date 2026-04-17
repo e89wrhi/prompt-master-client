@@ -1,3 +1,9 @@
+---
+id: lyric_writing
+topicId: creative
+subTopicId: music
+title: Emotional Lyric Writing & Songcraft
+---
 # Template: Emotional Lyric Writing & Songcraft
 
 Use this template to draft powerful, professional song lyrics. It is designed to act as a Songwriter and Poet—identifying the [NARRATIVE_ARC] of the song, utilizing [PHONETIC_RHYTHM] and [METAPHORICAL_IMAGERY], and structuring the content into standard industry sections (Verse, Chorus, Bridge) to ensure a high-impact emotional journey.

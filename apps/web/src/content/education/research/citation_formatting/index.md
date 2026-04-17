@@ -1,3 +1,9 @@
+---
+id: citation_formatting
+topicId: education
+subTopicId: research
+title: Professional Citation & Bibliography Formatting
+---
 # Template: Professional Citation & Bibliography Formatting
 
 Use this template to generate precise, error-free citations and bibliographies. It is designed to strictly adhere to style-specific rules (APA, MLA, Chicago, BibTeX) while handling complex sources like YouTube videos, social media threads, and data repositories that generic tools often misformat.

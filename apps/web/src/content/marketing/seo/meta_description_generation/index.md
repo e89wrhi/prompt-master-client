@@ -1,3 +1,9 @@
+---
+id: meta_description_generation
+topicId: marketing
+subTopicId: seo
+title: High-CTR Meta Description Generation
+---
 # Template: High-CTR Meta Description Generation
 
 Use this template to generate precise, action-oriented meta descriptions that convince searchers to click on your link. It is designed to strictly adhere to the 155-160 character limit while incorporating primary keywords, unique value propositions, and direct calls to action (CTAs).

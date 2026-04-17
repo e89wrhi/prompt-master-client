@@ -1,3 +1,9 @@
+---
+id: daily_focus_planner
+topicId: productivity
+subTopicId: time
+title: Professional Daily Focus Planner
+---
 # Template: Professional Daily Focus Planner
 
 Use this template to transition from a "Passive To-Do List" to an "Active Success Plan." It is designed to prioritize your highest-leverage work using the "Eat the Frog" method while accounting for your natural energy cycles throughout the day.

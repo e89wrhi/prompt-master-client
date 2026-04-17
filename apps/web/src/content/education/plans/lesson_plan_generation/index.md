@@ -1,3 +1,9 @@
+---
+id: lesson_plan_generation
+topicId: education
+subTopicId: plans
+title: High-Impact Lesson Plan Generation
+---
 # Template: High-Impact Lesson Plan Generation
 
 Use this template to design engaging, high-retention lessons for any subject or age group. It is designed to move beyond "Lecturing" by incorporating the "Gradual Release of Responsibility" model (I Do, We Do, You Do), specific checks for understanding, and time-boxed activities to keep energy high.

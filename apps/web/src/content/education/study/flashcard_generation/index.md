@@ -1,3 +1,9 @@
+---
+id: flashcard_generation
+topicId: education
+subTopicId: study
+title: High-Retention Flashcard Generation
+---
 # Template: High-Retention Flashcard Generation
 
 Use this template to generate digital flashcards optimized for "Active Recall" and software like Anki or Quizlet. It is designed to follow the "Minimum Information Principle"—ensuring each card is atomic, clear, and provides a "High-Contrast" learning signal to your brain.

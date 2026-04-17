@@ -1,3 +1,9 @@
+---
+id: concept_simplification
+topicId: education
+subTopicId: study
+title: The Feynman Technique (Concept Simplification)
+---
 # Template: The Feynman Technique (Concept Simplification)
 
 Use this template to break down complex, "impenetrable" topics into simple, clear explanations. It is designed to utilize the "Feynman Technique"—stripping away jargon, using relatable analogies, and explaining a concept with such clarity that even a non-expert (or a second-grader) could grasp the core logic.

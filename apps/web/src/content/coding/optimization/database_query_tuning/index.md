@@ -1,3 +1,9 @@
+---
+id: database_query_tuning
+topicId: coding
+subTopicId: optimization
+title: Expert Database Query Tuning
+---
 # Template: Expert Database Query Tuning
 
 Use this template to identify and resolve slow database performance. It is designed to act as a Database Administrator (DBA) and Backend Lead—utilizing [EXPLAIN_ANALYZE] to find bottlenecks, identifying [SEQUENTIAL_SCANS], adding [STRATEGIC_INDEXES], and implementing [N+1_QUERY_ELIMINATION] to ensure your data access layer is running as fast as theoretically possible.

@@ -1,3 +1,9 @@
+---
+id: logo_design_prompts
+topicId: creative
+subTopicId: art
+title: Professional Logo Design Prompts
+---
 # Template: Professional Logo Design Prompts
 
 Use this template to generate clean, scalable, and iconic logo concepts. It is designed to act as a Brand Identity Designer—utilizing [FLAT_DESIGN], [VECTOR_STYLE], and [NEGATIVE_SPACE] to ensure the resulting logo is modern, recognizable, and works in both color and monochrome.

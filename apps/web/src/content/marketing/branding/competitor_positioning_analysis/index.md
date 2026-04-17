@@ -1,3 +1,9 @@
+---
+id: competitor_positioning_analysis
+topicId: marketing
+subTopicId: branding
+title: Competitor Positioning & Perceptual Mapping
+---
 # Template: Competitor Positioning & Perceptual Mapping
 
 Use this template to identify "White Space" in your market—the gaps where your competitors are weak and you can be strong. It is designed to move beyond a simple feature comparison and into a strategic "Positioning Matrix" that identifies your unique competitive advantage.

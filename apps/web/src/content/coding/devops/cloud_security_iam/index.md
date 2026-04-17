@@ -1,3 +1,9 @@
+---
+id: cloud_security_iam
+topicId: coding
+subTopicId: devops
+title: Hardened Cloud Security & IAM Policies
+---
 # Template: Hardened Cloud Security & IAM Policies
 
 Use this template to design secure, least-privilege access models for your cloud infrastructure. It is designed to act as a Cloud Security Architect—utilizing [IAM_ROLES], strict [POLICIES], and [IDENTITY_FEDERATION] to ensure that every user, service, and automation task has exactly the permissions they need and nothing more.

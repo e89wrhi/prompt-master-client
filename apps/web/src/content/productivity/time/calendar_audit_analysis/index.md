@@ -1,3 +1,9 @@
+---
+id: calendar_audit_analysis
+topicId: productivity
+subTopicId: time
+title: Professional Calendar Audit & Analysis
+---
 # Template: Professional Calendar Audit & Analysis
 
 Use this template to reclaim your time by identifying "meeting bloat," fragmented work blocks, and misalignment between your schedule and your goals. It is designed to move beyond "organizing" and into "optimizing" your energy and output.

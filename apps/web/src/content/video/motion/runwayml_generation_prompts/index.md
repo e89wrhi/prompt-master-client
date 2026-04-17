@@ -1,3 +1,9 @@
+---
+id: runwayml_generation_prompts
+topicId: video
+subTopicId: motion
+title: 'Gen-AI Video Generation (RunwayML, Pika, Kling)'
+---
 # Template: Gen-AI Video Generation (RunwayML, Pika, Kling)
 
 Use this template to generate highly precise text-to-video (or image-to-video) prompts. It structures the camera variables, subject actions, and atmospheric elements required by diffusion video models like RunwayML Gen-2/Gen-3, Pika Labs, etc.

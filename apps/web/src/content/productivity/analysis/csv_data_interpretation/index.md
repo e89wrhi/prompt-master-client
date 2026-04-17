@@ -1,3 +1,9 @@
+---
+id: csv_data_interpretation
+topicId: productivity
+subTopicId: analysis
+title: Professional CSV Data Interpretation
+---
 # Template: Professional CSV Data Interpretation
 
 Use this template to transform raw CSV data into meaningful business intelligence. It is designed to find trends, surface anomalies, and provide high-level summaries without requiring a separate data analysis tool.

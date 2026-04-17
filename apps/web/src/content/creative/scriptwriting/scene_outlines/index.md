@@ -1,3 +1,9 @@
+---
+id: scene_outlines
+topicId: creative
+subTopicId: scriptwriting
+title: High-Tension Scene Outlines (Beat-by-Beat)
+---
 # Template: High-Tension Scene Outlines (Beat-by-Beat)
 
 Use this template to architect individual scenes that drive your story forward. It is designed to act as a Story Producer and Screenwriter—identifying the [INCITING_BEAT] of the scene, the [GOAL_VS_OBSTACLE] for the protagonist, and the "Emotional Turn" that ensures every scene changes the value of the story (from positive to negative or vice versa).

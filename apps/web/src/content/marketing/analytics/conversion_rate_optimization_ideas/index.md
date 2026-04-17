@@ -1,3 +1,9 @@
+---
+id: conversion_rate_optimization_ideas
+topicId: marketing
+subTopicId: analytics
+title: Professional Conversion Rate Optimization (CRO)
+---
 # Template: Professional Conversion Rate Optimization (CRO)
 
 Use this template to identify friction points and psychological barriers on your website. It is designed to generate rigorous A/B testing hypotheses based on heuristic analysis, aiming to convert more visitors into leads or customers without increasing traffic spend.

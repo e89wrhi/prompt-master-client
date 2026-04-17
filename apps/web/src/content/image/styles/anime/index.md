@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/anime.png"
+id: anime
+topicId: image
+subTopicId: styles
+title: 'Style: Vibrant Anime & Manga'
+image: /images/styles/anime.png
 ---
 
 # Style: Vibrant Anime & Manga
 
-![Anime](file:///d:/dev/_projects/prompt-library/assets/images/anime.png)
+![Anime](/images/styles/anime.png)
 
 This style ranges from the cinematic, hyper-detailed backgrounds of Studio Ghibli to the sleek, modern line-work of high-octane action anime. It emphasizes flat cell-shading, vibrant color palettes, dramatic speed lines, and expressive character designs.
 

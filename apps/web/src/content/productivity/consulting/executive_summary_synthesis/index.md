@@ -1,3 +1,9 @@
+---
+id: executive_summary_synthesis
+topicId: productivity
+subTopicId: consulting
+title: Professional Executive Summary Synthesis
+---
 # Template: Professional Executive Summary Synthesis
 
 Use this template to condense high-volume, complex information into a punchy, high-level briefing. It is designed for busy CEOs and stakeholders who need the "Bottom Line Up Front" (BLUF) without losing the essential nuance of the source material.

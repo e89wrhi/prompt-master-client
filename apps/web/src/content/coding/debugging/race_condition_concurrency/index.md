@@ -1,3 +1,9 @@
+---
+id: race_condition_concurrency
+topicId: coding
+subTopicId: debugging
+title: Concurrency & Race Conditions
+---
 # Template: Race Condition & Concurrency Debugging
 
 Use this template to isolate and resolve non-deterministic bugs in multithreaded or asynchronous applications. It is designed to act as a Systems Engineer and Parallel Computing Expert—detecting [DATA_RACES], identifying dangerous [SHARED_STATE] interactions, and providing the thread-safe patterns (Mutexes, Atomic Ops, Channels) required to ensure data consistency under heavy load.

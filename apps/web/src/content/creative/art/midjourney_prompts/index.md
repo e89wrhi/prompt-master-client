@@ -1,3 +1,9 @@
+---
+id: midjourney_prompts
+topicId: creative
+subTopicId: art
+title: Advanced Midjourney (v6+) Prompting
+---
 # Template: Advanced Midjourney (v6+) Prompting
 
 Use this template to master the distinct syntax and artistic logic of Midjourney v6. It is designed to navigate the [IMPORTANCE_OF_ORDER] (the first words carry the most weight), utilizing [ENVIRONMENTAL_STYLING], specific [CAMERA_SPECS], and [MJ_PARAMETERS] to create award-winning digital art and photography.

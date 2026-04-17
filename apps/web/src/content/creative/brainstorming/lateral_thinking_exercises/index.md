@@ -1,3 +1,9 @@
+---
+id: lateral_thinking_exercises
+topicId: creative
+subTopicId: brainstorming
+title: Lateral Thinking & Creative Problem Solving
+---
 # Template: Lateral Thinking & Creative Problem Solving
 
 Use this template to break through mental blocks and find unconventional solutions to stubborn problems. It is designed to utilize Edward de Bono's "Lateral Thinking" techniques—challenging established [ASSUMPTIONS], using [RANDOM_STIMULI], and moving "sideways" to find paths that logical, linear thinking often misses.

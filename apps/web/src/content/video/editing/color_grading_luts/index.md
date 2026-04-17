@@ -1,3 +1,9 @@
+---
+id: color_grading_luts
+topicId: video
+subTopicId: editing
+title: Cinematic Color Grading & Node Trees
+---
 # Template: Cinematic Color Grading & Node Trees
 
 Use this template to generate precise instructions for color grading a project. This helps an AI generate DaVinci Resolve node trees, DCTL logic, or step-by-step instructions for achieving a specific visual aesthetic.

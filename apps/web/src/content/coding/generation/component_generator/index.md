@@ -1,3 +1,9 @@
+---
+id: component_generator
+topicId: coding
+subTopicId: generation
+title: High-Aesthetic UI Component Generation
+---
 # Template: High-Aesthetic UI Component Generation
 
 Use this template to generate premium, accessible, and reusable UI components. It is designed to act as a Frontend Lead—utilizing [FRAMEWORK_STANDARDS], enforcing [STRICT_PROPS_INTERFACES], implementing [ACCESSIBILITY_ARIA] attributes, and applying [PREMIUM_STYLING] (e.g., Glassmorphism, tailored gradients) to ensure your components are production-ready.

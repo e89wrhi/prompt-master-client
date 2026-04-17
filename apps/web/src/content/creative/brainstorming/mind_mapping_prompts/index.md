@@ -1,3 +1,9 @@
+---
+id: mind_mapping_prompts
+topicId: creative
+subTopicId: brainstorming
+title: Structured Mind Mapping & Associative Thinking
+---
 # Template: Structured Mind Mapping & Associative Thinking
 
 Use this template to visualize the complexity of a project, story, or strategy. It is designed to act as a Visual Strategist and Information Architect—starting from a [CENTRAL_NODE] and systematically branching out into [PRIMARY_THEMES] and [SECONDARY_ASSOCIATIONS], ensuring all relationships between ideas are clearly mapped out.

@@ -1,3 +1,9 @@
+---
+id: free_verse_emotional
+topicId: creative
+subTopicId: poetry
+title: Ethereal Free Verse Poetry
+---
 # Template: Ethereal Free Verse Poetry
 
 Use this template to craft evocative, non-linear poetry that prioritizes [INTERNAL_EMOTION] and [VISCERAL_IMAGERY] over rigid structure. It is designed to act as a Surrealist Poet—utilizing unconventional line breaks, sensory metaphors, and the "Internal Monologue" to capture fleeting feelings or complex psychological states.

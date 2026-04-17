@@ -1,3 +1,9 @@
+---
+id: suno_song_generation
+topicId: creative
+subTopicId: music
+title: AI Music Architecture (Suno & Udio)
+---
 # Template: AI Music Architecture (Suno & Udio)
 
 Use this template to generate high-quality AI music with precise control over structure and style. It is designed to act as an AI Music Architect—utilizing [TAG-BASED_PROMPTING] for sections (Intro, Verse, Chorus), describing specific [INSTRUMENTAL_TEXTURES], and specifying the [ENERGY_CURVE] of the track to ensure the AI creates a professional-sounding composition.

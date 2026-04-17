@@ -1,3 +1,9 @@
+---
+id: high_availability_scaling
+topicId: coding
+subTopicId: system design
+title: High-Availability & Global Scaling
+---
 # Template: High-Availability & Global Scaling
 
 Use this template to design systems that never go down and scale to millions of users. It is designed to act as an SRE and Systems Architect—implementing [LOAD_BALANCING] (L4/L7), [HORIZONTAL_SCALING], [MULTI-REGION_REPLICATION], and [FAILOVER_STRATEGIES] to ensure your application is resilient to hardware failures and traffic spikes.

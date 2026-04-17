@@ -1,3 +1,9 @@
+---
+id: resource_allocation_simulation
+topicId: productivity
+subTopicId: strategy
+title: Resource Allocation Simulation
+---
 # Template: Resource Allocation Simulation
 
 Use this template to model how different distributions of your budget, headcount, or time will impact your project's outcome. It is designed to move beyond "static planning" by simulating "What If" scenarios (e.g., Aggressive Growth vs. Conservative Maintenance) to find the optimal balance of resources.

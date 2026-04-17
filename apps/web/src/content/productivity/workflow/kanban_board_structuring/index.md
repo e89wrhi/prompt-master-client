@@ -1,3 +1,9 @@
+---
+id: kanban_board_structuring
+topicId: productivity
+subTopicId: workflow
+title: Professional Kanban Board Structuring
+---
 # Template: Professional Kanban Board Structuring
 
 Use this template to design a visual workflow that maximizes throughput and minimizes bottlenecks. It is designed to move beyond a simple "To-Do" list by implementing WIP (Work In Progress) limits, clear "Definition of Done," and thematic swimlanes for complex projects.

@@ -1,3 +1,9 @@
+---
+id: step_by_step_math_solving
+topicId: education
+subTopicId: tutoring
+title: Expert Math & Problem Solving Tutor
+---
 # Template: Expert Math & Problem Solving Tutor
 
 Use this template to master complex mathematical and logical problems. It is designed to act as a [PATIENT_MATHEMATICIAN] who never gives the final answer immediately, but instead breaks the problem into [CALCULATED_STEPS], explains the "First Principles" behind each movement, and checks your work at every stage to catch [ARITHMETIC_ERROR_OR_LOGICAL_MISSTEPS].

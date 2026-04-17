@@ -1,3 +1,9 @@
+---
+id: core_values_generation
+topicId: marketing
+subTopicId: branding
+title: Actionable Core Values Generation
+---
 # Template: Actionable Core Values Generation
 
 Use this template to move beyond generic, "corporate" buzzwords (like Integrity or Excellence) and define a set of unique core values that actually drive behavior. It is designed to create values that serve as a decision-making filter for your team and a brand pillar for your customers.

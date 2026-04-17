@@ -1,3 +1,9 @@
+---
+id: cost_benefit_analysis
+topicId: productivity
+subTopicId: analysis
+title: Professional Cost-Benefit Analysis (CBA)
+---
 # Template: Professional Cost-Benefit Analysis (CBA)
 
 Use this template to evaluate the financial and operational viability of a project, purchase, or strategic shift. It focuses on identifying both quantitative (hard) and qualitative (soft) factors to calculate a projected Return on Investment (ROI).

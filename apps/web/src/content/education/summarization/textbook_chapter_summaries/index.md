@@ -1,3 +1,9 @@
+---
+id: textbook_chapter_summaries
+topicId: education
+subTopicId: summarization
+title: Comprehensive Textbook Chapter Summaries
+---
 # Template: Comprehensive Textbook Chapter Summaries
 
 Use this template to bridge the gap between "Reading" and "Reviewing" a complex textbook chapter. It is designed to extract the [CHAPTER_OBJECTIVES], define the [BOLDFACE_TERMS], summarize the [CORE_CASE_STUDIES/EXPERIMENTS], and provide a "Mental Map" of how the chapter's concepts connect to the broader course.

@@ -1,3 +1,9 @@
+---
+id: audio_mixing_stems
+topicId: video
+subTopicId: editing
+title: Professional Audio Mixing & Processing
+---
 # Template: Professional Audio Mixing & Processing
 
 Use this template when requesting an AI tool (like an AI copilot) or a human editor to apply precise audio processing, equalization, and dynamic range compression for video content.

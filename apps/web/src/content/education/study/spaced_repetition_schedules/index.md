@@ -1,3 +1,9 @@
+---
+id: spaced_repetition_schedules
+topicId: education
+subTopicId: study
+title: Optimized Spaced Repetition Schedules
+---
 # Template: Optimized Spaced Repetition Schedules
 
 Use this template to design a long-term memory maintenance plan. It is designed to utilize the "Forgetting Curve" logic—scheduling reviews at increasing intervals (e.g., Day 1, 3, 7, 14, 30) to ensure that information is moved from short-term to permanent long-term memory with the minimum amount of study time.

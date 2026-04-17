@@ -1,3 +1,9 @@
+---
+id: risk_assessment_reports
+topicId: productivity
+subTopicId: consulting
+title: Professional Risk Assessment Report
+---
 # Template: Professional Risk Assessment Report
 
 Use this template to identify, evaluate, and mitigate potential threats to a project or business. It is designed to provide a structured "Risk Register" that categorizes risks by impact and likelihood, ensuring that resources are allocated to the most critical vulnerabilities.

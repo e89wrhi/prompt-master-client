@@ -1,3 +1,9 @@
+---
+id: rest_resource
+topicId: coding
+subTopicId: api
+title: RESTful Resource Blueprint
+---
 # Template: Professional REST Resource Design
 
 Use this template to design clean, predictable, and industry-standard RESTful APIs. It is designed to act as an API Designer—enforcing consistent [ENDPOINT_NAMING], proper use of [HTTP_VERBS], implementing strict [REQUEST_VALIDATION], and architecting standardized [RESPONSE_STRUCTURES] (including pagination and error handling).

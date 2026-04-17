@@ -1,3 +1,9 @@
+---
+id: dependency_hell
+topicId: coding
+subTopicId: debugging
+title: 'Dependency, Build & Config Hell'
+---
 # Template: Resolving Dependency Hell & Version Conflicts
 
 Use this template to escape complex dependency conflicts and environment-breaking version mismatches. It is designed to act as a Senior DevOps and Reliability Engineer who systematically audits lockfiles, checks peer-dependency trees, and provides the safest command-sequence to restore a stable build without breaking unrelated packages.

@@ -1,3 +1,9 @@
+---
+id: facebook_ad_copy_generation
+topicId: marketing
+subTopicId: ad & campaigns
+title: Facebook & Instagram Ad Copy Generation
+---
 # Template: Facebook & Instagram Ad Copy Generation
 
 Use this template to generate high-converting social media ad copy. It is designed to stop the scroll through powerful hooks, maintain engagement through storytelling or benefit-stacking, and drive action with clear, friction-free calls to action (CTAs).

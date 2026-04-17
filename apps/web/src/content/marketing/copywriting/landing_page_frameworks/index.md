@@ -1,3 +1,9 @@
+---
+id: landing_page_frameworks
+topicId: marketing
+subTopicId: copywriting
+title: Strategic Landing Page Frameworks
+---
 # Template: Strategic Landing Page Frameworks
 
 Use this template to architect a high-converting landing page from the ground up. It covers the structural "Skeleton" of the page using proven copywriting formulas like PAS (Problem-Agitate-Solution) or AIDA (Attention-Interest-Desire-Action) to ensure a logical flow that leads the user toward a single conversion goal.

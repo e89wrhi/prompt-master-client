@@ -1,3 +1,9 @@
+---
+id: post_mortem_facilitation
+topicId: productivity
+subTopicId: meeting
+title: Professional Post-Mortem Facilitation
+---
 # Template: Professional Post-Mortem Facilitation
 
 Use this template to conduct blameless project debriefs that turn failures into institutional knowledge. It is designed to create a "Psychologically Safe" environment that focuses on system improvements rather than individual blame, using a "Start, Stop, Continue" framework.

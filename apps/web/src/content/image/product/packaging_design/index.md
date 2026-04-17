@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/product/packaging_design.png"
+id: packaging_design
+topicId: image
+subTopicId: product
+title: Professional Packaging & Label Design
+image: /images/product/packaging_design.png
 ---
 
 # Template: Professional Packaging & Label Design

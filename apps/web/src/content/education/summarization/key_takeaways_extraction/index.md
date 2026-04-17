@@ -1,3 +1,9 @@
+---
+id: key_takeaways_extraction
+topicId: education
+subTopicId: summarization
+title: High-Impact Key Takeaways Extraction
+---
 # Template: High-Impact Key Takeaways Extraction
 
 Use this template to distil long-form content (podcasts, long articles, meeting notes) into a concentrated list of valuable insights. It is designed to strip away the "fluff" and identify the core arguments, actionable advice, and unique perspectives that actually matter, providing a "So What?" for every entry.

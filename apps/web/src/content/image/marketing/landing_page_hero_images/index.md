@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/marketing/landing_page_hero_images.png"
+id: landing_page_hero_images
+topicId: image
+subTopicId: marketing
+title: High-Conversion Landing Page Hero Images
+image: /images/marketing/landing_page_hero_images.png
 ---
 
 # Template: High-Conversion Landing Page Hero Images

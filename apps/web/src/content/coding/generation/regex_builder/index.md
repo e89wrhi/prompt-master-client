@@ -1,3 +1,9 @@
+---
+id: regex_builder
+topicId: coding
+subTopicId: generation
+title: High-Precision Regex Architect
+---
 # Template: High-Precision Regex Architect
 
 Use this template to design, explain, and optimize complex regular expressions. It is designed to act as a String Pattern Expert—utilizing [CAPTURE_GROUPS], [LOOKAHEADS/LOOKBEHINDS], and [NON-BACKTRACKING_LOGIC] to ensure your patterns are accurate, high-performance, and resistant to "Regex Denial of Service" (ReDoS) attacks.

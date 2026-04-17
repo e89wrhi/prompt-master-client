@@ -1,3 +1,9 @@
+---
+id: cold_outreach_b2b
+topicId: marketing
+subTopicId: email marketing
+title: High-Stakes B2B Cold Outreach
+---
 # Template: High-Stakes B2B Cold Outreach
 
 Use this template to generate cold emails that actually get replies. It is designed to move away from "mass-blast" spam and toward "Personalization-at-Scale," focusing on deep research, identifying specific [TRIGGER_EVENTS], and making a "Soft Ask" that lowers the barrier to a conversation.

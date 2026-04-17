@@ -1,3 +1,9 @@
+---
+id: script_automation
+topicId: coding
+subTopicId: generation
+title: Intelligent Script & Task Automation
+---
 # Template: Intelligent Script & Task Automation
 
 Use this template to create robust, modular scripts for automating repetitive tasks. It is designed to act as a Python/Bash Scripting Expert—implementing [CLI_ARGUMENTS], handling [FILE_SYSTEM_OPERATIONS], integrating [EXTERNAL_APIS], and providing [ERROR_RESILIENCY] to ensure your automations run reliably without manual intervention.

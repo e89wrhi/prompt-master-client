@@ -1,3 +1,9 @@
+---
+id: language_partner_simulation
+topicId: education
+subTopicId: tutoring
+title: Immersive Language Partner Simulation
+---
 # Template: Immersive Language Partner Simulation
 
 Use this template to practice speaking or writing in a foreign language through realistic roleplay. It is designed to act as a [NATIVE_SPEAKER] who adapts to your [FLUENCY_LEVEL], maintains a consistent [CHARACTER_VIBE], and provides "Invisible Corrections"—improving your mistakes without breaking the flow of the conversation.

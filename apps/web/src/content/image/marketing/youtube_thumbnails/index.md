@@ -1,5 +1,8 @@
 ---
-thumbnail: "/assets/images/marketing/youtube_thumbnail.png"
+id: youtube_thumbnails
+topicId: image
+subTopicId: marketing
+title: Viral YouTube Thumbnail Visuals
 ---
 
 # Template: Viral YouTube Thumbnail Visuals

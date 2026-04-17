@@ -1,3 +1,9 @@
+---
+id: readme_generator
+topicId: coding
+subTopicId: documentation
+title: Ultimate Project README Generator
+---
 # Template: Ultimate Project README Generator
 
 Use this template to design high-impact, professional README files for your repositories. It is designed to act as an Open Source Maintainer—utilizing [VISUAL_BADGES], clear [INSTALLATION_STEPS], interactive [USAGE_EXAMPLES], and a structured [TECH_STACK] overview to ensure your project makes an elite first impression on developers and stakeholders.

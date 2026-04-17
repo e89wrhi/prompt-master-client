@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/marketing/email_newsletter_headers.png"
+id: email_newsletter_headers
+topicId: image
+subTopicId: marketing
+title: Engaging Email Newsletter Headers
+image: /images/marketing/email_newsletter_headers.png
 ---
 
 # Template: Engaging Email Newsletter Headers

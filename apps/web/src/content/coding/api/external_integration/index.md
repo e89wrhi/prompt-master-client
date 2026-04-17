@@ -1,3 +1,9 @@
+---
+id: external_integration
+topicId: coding
+subTopicId: api
+title: External API Integration
+---
 # Template: Robust External API Integration
 
 Use this template to connect your application to 3rd-party services like Stripe, Slack, or Twilio. It is designed to act as an API Integration Specialist—implementing [WEBHOOK_HANDLING], managing [SECRET_KEYS] securely, building [RESILIENT_RETRIES] for failed requests, and handling [RATE_LIMITS] to ensure a seamless bridge between your system and external platforms.

@@ -1,3 +1,9 @@
+---
+id: world_building_rules
+topicId: creative
+subTopicId: scriptwriting
+title: Hard-Rule World Building (Consistency & Depth)
+---
 # Template: Hard-Rule World Building (Consistency & Depth)
 
 Use this template to architect a cohesive world for your story. It is designed to act as a World Architect and Systems Designer—moving beyond "Vague Settings" and into [INTERNAL_LOGIC], [ECONOMIC_SISTEMS], and [HARD_CONSTRAINTS] that ensure your world feels lived-in, believable, and full of conflict-generating limitations.

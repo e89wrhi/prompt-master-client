@@ -1,3 +1,9 @@
+---
+id: lecture_transcript_digests
+topicId: education
+subTopicId: summarization
+title: Structured Lecture Transcript Digests
+---
 # Template: Structured Lecture Transcript Digests
 
 Use this template to convert messy, verbatim lecture transcripts into clean, academic study notes. It is designed to strip away filler words (ums, ahs, tangents), organize the content into logical [HEADINGS], bold key technical definitions, and flag areas where the professor hinted at [EXAM_MATERIAL].

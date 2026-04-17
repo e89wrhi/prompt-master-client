@@ -1,3 +1,9 @@
+---
+id: ga4_report_interpretation
+topicId: marketing
+subTopicId: analytics
+title: GA4 Report Interpretation & Insights
+---
 # Template: GA4 Report Interpretation & Insights
 
 Use this template to translate complex Google Analytics 4 (GA4) data into actionable marketing insights. It is designed to navigate the shift from "Universal Analytics" to "Event-Based Tracking," helping you identify where your traffic is coming from and why users are dropping off in the funnel.

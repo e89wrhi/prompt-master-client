@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/modern_isometric.png"
+id: modern_isometric
+topicId: image
+subTopicId: styles
+title: 'Style: Modern Isometric 3D'
+image: /images/styles/modern_isometric.png
 ---
 
 # Style: Modern Isometric 3D
 
-![Modern Isometric](file:///d:/dev/_projects/prompt-library/assets/images/modern_isometric.png)
+![Modern Isometric](/images/styles/modern_isometric.png)
 
 This style utilizes a fixed 45-degree angle (No perspective distortion) to create "Self-Contained" worlds, layouts, or objects. It emphasizes clean geometric shapes, soft ambient shadows (Ambient Occlusion), pastel color palettes, and a "Bento Box" organization.
 

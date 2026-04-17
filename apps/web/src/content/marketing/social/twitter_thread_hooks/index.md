@@ -1,3 +1,9 @@
+---
+id: twitter_thread_hooks
+topicId: marketing
+subTopicId: social
+title: High-Retention Twitter (X) Thread Hooks
+---
 # Template: High-Retention Twitter (X) Thread Hooks
 
 Use this template to architect the "First Tweet" of a thread. On Twitter, if the first tweet doesn't capture immediate social proof and promise a specific transformation, the remaining 10 tweets will never be read. It is designed to use the "Authority + Result + Timeline" framework to maximize click-throughs.

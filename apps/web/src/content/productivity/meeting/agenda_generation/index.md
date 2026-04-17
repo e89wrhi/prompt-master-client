@@ -1,3 +1,9 @@
+---
+id: agenda_generation
+topicId: productivity
+subTopicId: meeting
+title: Professional Meeting Agenda Generation
+---
 # Template: Professional Meeting Agenda Generation
 
 Use this template to design high-impact meetings that respect everyone's time. It is designed to move beyond simple "lists of topics" by including timeboxing, clear objectives, and pre-reading requirements to ensure the team arrives prepared to make decisions.

@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/product/isometric_illustrations.png"
+id: isometric_illustrations
+topicId: image
+subTopicId: product
+title: Clean Isometric & "Bento Box" Illustrations
+image: /images/product/isometric_illustrations.png
 ---
 
 # Template: Clean Isometric & "Bento Box" Illustrations

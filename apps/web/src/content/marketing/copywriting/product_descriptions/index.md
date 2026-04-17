@@ -1,3 +1,9 @@
+---
+id: product_descriptions
+topicId: marketing
+subTopicId: copywriting
+title: Professional Product Description Writing
+---
 # Template: Professional Product Description Writing
 
 Use this template to transform dry product specs into compelling, benefit-led stories that drive sales. It is designed to move beyond "What the product is" and into "What the product does for the user," utilizing sensory language, emotional triggers, and optimized formatting.

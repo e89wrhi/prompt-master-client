@@ -1,3 +1,9 @@
+---
+id: sonnet_structuring
+topicId: creative
+subTopicId: poetry
+title: Classical Sonnet Structuring (Shakespearean)
+---
 # Template: Classical Sonnet Structuring (Shakespearean)
 
 Use this template to master the rigorous [14-LINE] structure of the Shakespearean Sonnet. It is designed to act as a Renaissance Poet—utilizing [IAMBIC_PENTAMETER], the strict [ABAB_CDCD_EFEF_GG] rhyme scheme, and the crucial [VOLTA] (the turn in logic) in the final couplet to create timeless, authoritative verse.

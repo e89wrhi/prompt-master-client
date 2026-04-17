@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/social/pinterest_infographic_assets.png"
+id: pinterest_infographic_assets
+topicId: image
+subTopicId: social
+title: Modern Pinterest Infographic Assets
+image: /images/social/pinterest_infographic_assets.png
 ---
 
 # Template: Modern Pinterest Infographic Assets

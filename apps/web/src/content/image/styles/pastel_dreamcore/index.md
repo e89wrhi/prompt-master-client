@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/pastel_dreamcore.png"
+id: pastel_dreamcore
+topicId: image
+subTopicId: styles
+title: 'Style: Ethereal Pastel Dreamcore'
+image: /images/styles/pastel_dreamcore.png
 ---
 
 # Style: Ethereal Pastel Dreamcore
 
-![Pastel Dreamcore](file:///d:/dev/_projects/prompt-library/assets/images/pastel_dreamcore.png)
+![Pastel Dreamcore](/images/styles/pastel_dreamcore.png)
 
 This style focuses on the surreal, hazy, and nostalgic world of "Dreamcore." It emphasizes soft pastel palettes (Cotton Candy, Mint, Lavender), low contrast, hazy atmospheres, [LIMINAL_SPACES], and a sense of peaceful but surreal loneliness.
 

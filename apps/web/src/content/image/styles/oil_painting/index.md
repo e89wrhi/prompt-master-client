@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/oil_painting.png"
+id: oil_painting
+topicId: image
+subTopicId: styles
+title: 'Style: Master-Level Oil Painting'
+image: /images/styles/oil_painting.png
 ---
 
 # Style: Master-Level Oil Painting
 
-![Oil Painting](file:///d:/dev/_projects/prompt-library/assets/images/oil_painting.png)
+![Oil Painting](/images/styles/oil_painting.png)
 
 This style replicates the physical properties of traditional oil on canvas. It emphasizes thick [BRUSHSTROCKES] (Impasto), subtle blending (Sfumato), rich pigment saturation, and the distinct [CANVAS_TEXTURE] of historical or modern art masters.
 

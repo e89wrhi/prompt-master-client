@@ -1,3 +1,9 @@
+---
+id: cart_abandonment_recovery
+topicId: marketing
+subTopicId: email marketing
+title: 3-Email Cart Abandonment Sequence
+---
 # Template: 3-Email Cart Abandonment Sequence
 
 Use this template to win back lost sales by reminding customers what they left behind. It is designed as a psychological progression: starting with a helpful reminder, moving to answering objections/concerns, and concluding with a time-limited incentive to close the gap.

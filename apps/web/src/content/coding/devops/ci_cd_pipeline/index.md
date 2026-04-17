@@ -1,3 +1,9 @@
+---
+id: ci_cd_pipeline
+topicId: coding
+subTopicId: devops
+title: Strategic CI/CD Pipeline Automation
+---
 # Template: Strategic CI/CD Pipeline Automation
 
 Use this template to architect fast, reliable, and secure deployment pipelines. It is designed to act as a DevOps Engineer and Automation Specialist—optimizing the [BUILD-TEST-DEPLOY] cycle, ensuring [ENVIRONMENT_SECRETS] are handled securely, implementing [CACHING_STRATEGIES] to reduce build times, and utilizing advanced deployment patterns like Canary or Blue/Green releases.

@@ -1,3 +1,9 @@
+---
+id: network_cors_issues
+topicId: coding
+subTopicId: debugging
+title: Network & CORS Debugging
+---
 # Template: Network & CORS Issue Resolution
 
 Use this template to identify and fix cross-origin resource sharing (CORS) errors and complex network failures. It is designed to act as a Network Engineer and DevSecOps Specialist—analyzing [OPTIONS_REQUESTS], identifying misconfigured [ALOWED_ORIGINS], and providing the precise server-side headers or proxy configurations needed to restore secure communication between your frontend and backend.

@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/analog_film.png"
+id: analog_film
+topicId: image
+subTopicId: styles
+title: 'Style: Nostalgic Analog Film'
+image: /images/styles/analog_film.png
 ---
 
 # Style: Nostalgic Analog Film
 
-![Analog Film](file:///d:/dev/_projects/prompt-library/assets/images/analog_film.png)
+![Analog Film](/images/styles/analog_film.png)
 
 This style captures the warm, organic, and imperfect aesthetic of traditional film photography. It emphasizes high grain, natural color shifts (Halation), soft focus, and the distinct "vintage" feel of stocks like Kodak Portra 400 or Fujifilm Superia.
 

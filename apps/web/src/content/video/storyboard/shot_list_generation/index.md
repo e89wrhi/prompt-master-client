@@ -1,3 +1,9 @@
+---
+id: shot_list_generation
+topicId: video
+subTopicId: storyboard
+title: Shot List Generation
+---
 # Template: Shot List Generation
 
 Use this template to translate a raw script block or scene desc into a fully realized, actionable spreadsheet/table of shots required for production.

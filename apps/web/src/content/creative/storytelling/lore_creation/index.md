@@ -1,3 +1,9 @@
+---
+id: lore_creation
+topicId: creative
+subTopicId: storytelling
+title: Deep Mythos & Lore Creation
+---
 # Template: Deep Mythos & Lore Creation
 
 Use this template to build the history, religion, and culture of a fictional world. It is designed to act as an Archivist and Historian—utilizing [AGES_OF_HISTORY], [FACTION_MYTHS], and [CULTURAL_PROVERBS] to create a sense of depth and ancient mystery that makes your world feel far larger than the story itself.

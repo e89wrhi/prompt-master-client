@@ -1,3 +1,9 @@
+---
+id: data_mocking
+topicId: coding
+subTopicId: generation
+title: Realistic High-Fidelity Data Mocking
+---
 # Template: Realistic High-Fidelity Data Mocking
 
 Use this template to generate large, varied, and semantically correct datasets for testing or UI prototyping. It is designed to act as a Data Engineer and QA Specialist—moving beyond [LOREM_IPSUM] by generating [REALISTIC_ENTITIES] (e.g., Names, UUIDs, ISO Dates, Realistic Pricing), handling [EDGE_CASES] (empty strings, null values, varied distributions), and exporting in standard [DATA_FORMATS].

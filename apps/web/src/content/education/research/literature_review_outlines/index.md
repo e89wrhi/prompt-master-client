@@ -1,3 +1,9 @@
+---
+id: literature_review_outlines
+topicId: education
+subTopicId: research
+title: Meta-Analysis & Literature Review Outlines
+---
 # Template: Meta-Analysis & Literature Review Outlines
 
 Use this template to architect a professional literature review for a thesis, dissertation, or journal article. It is designed to move beyond a "summary of papers" by organizing existing research [THEMATICALLY] or [METHODOLOGICALLY], identifying the "Knowledge Gap," and synthesizing multiple sources into a single, cohesive narrative.

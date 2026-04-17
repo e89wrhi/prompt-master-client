@@ -1,3 +1,9 @@
+---
+id: syllabus_structuring
+topicId: education
+subTopicId: plans
+title: Modern Syllabus Structuring
+---
 # Template: Modern Syllabus Structuring
 
 Use this template to design a professional, comprehensive course syllabus. It is designed to move beyond a simple calendar by incorporating course policies, learning philosophes, specific assessment weights, and a week-by-week reading and project list that guides the student through the entire journey.

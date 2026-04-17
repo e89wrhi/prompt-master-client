@@ -1,3 +1,9 @@
+---
+id: genre_blending
+topicId: creative
+subTopicId: music
+title: Experimental Genre Blending (Music Production)
+---
 # Template: Experimental Genre Blending (Music Production)
 
 Use this template to create unique soundscapes by fusing the "DNA" of two or more unrelated musical genres. It is designed to act as a Music Producer and Sound Designer—identifying the [SIGNATURE_INSTRUMENTS], [RHYTHMIC_PATTERNS], and [PRODUCTION_TECHNIQUES] of each genre and architecting a "Bridge" to harmonize them into a cohesive new sound.

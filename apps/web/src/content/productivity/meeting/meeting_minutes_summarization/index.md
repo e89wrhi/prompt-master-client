@@ -1,3 +1,9 @@
+---
+id: meeting_minutes_summarization
+topicId: productivity
+subTopicId: meeting
+title: Professional Meeting Minutes Summarization
+---
 # Template: Professional Meeting Minutes Summarization
 
 Use this template to create a permanent, legally/professionally defensible record of a meeting. It is designed to capture not just "what was said," but the underlying "Why," the dissenting opinions, and the final binding decisions.

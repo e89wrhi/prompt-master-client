@@ -1,3 +1,9 @@
+---
+id: name_generation
+topicId: creative
+subTopicId: brainstorming
+title: Strategic Name Generation (Naming & Branding)
+---
 # Template: Strategic Name Generation (Naming & Branding)
 
 Use this template to find the perfect name for a company, product, or character. It is designed to act as a Naming Specialist and Linguist—utilizing [PHONETIC_FLOW], [ETYMOLOGICAL_ROOTS], and [BRAND_PSYCHOLOGY] to ensure names are memorable, evocative, and available for trademarking.

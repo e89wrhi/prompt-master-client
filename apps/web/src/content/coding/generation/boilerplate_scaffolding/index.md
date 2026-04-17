@@ -1,3 +1,9 @@
+---
+id: boilerplate_scaffolding
+topicId: coding
+subTopicId: generation
+title: Professional Boilerplate & Scaffolding
+---
 # Template: Professional Boilerplate & Scaffolding
 
 Use this template to architect the skeleton of a new software project. It is designed to act as a Full-Stack Architect—defining the [PROJECT_STRUCTURE], selecting [CORE_DEPENDENCIES], configuring [LINTING/PRETTIER] standards, and establishing a modular [DIRECTORY_STRATEGY] that ensures long-term maintainability and scalability.

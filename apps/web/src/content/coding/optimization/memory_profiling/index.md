@@ -1,3 +1,9 @@
+---
+id: memory_profiling
+topicId: coding
+subTopicId: optimization
+title: Advanced Memory Profiling & GC Tuning
+---
 # Template: Advanced Memory Profiling & GC Tuning
 
 Use this template to identify resource leaks and optimize the RAM consumption of your applications. It is designed to act as a Performance Engineer—utilizing [HEAP_DUMPS], identifying [RETAINED_OBJECT_TREES], analyzing [GARBAGE_COLLECTION_PATTERNS], and implementing [STREAMING_DATA_PROCESSING] to ensure your application can handle massive throughput without crashing or slowing down due to memory pressure.

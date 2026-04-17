@@ -1,3 +1,9 @@
+---
+id: pacing_and_cut_guidelines
+topicId: video
+subTopicId: editing
+title: Editing Pacing & Audience Retention
+---
 # Template: Editing Pacing & Audience Retention
 
 Use this template to give specific editorial direction to an AI editing assistant (like AutoPod) or a human editor. It defines the emotional rhythm, pacing intervals, and overlapping cutting techniques needed prior to effects or color.

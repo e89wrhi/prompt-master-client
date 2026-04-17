@@ -1,3 +1,9 @@
+---
+id: okr_goal_setting
+topicId: productivity
+subTopicId: strategy
+title: Professional OKR Goal Setting
+---
 # Template: Professional OKR Goal Setting
 
 Use this template to align team activities with high-level company vision using the Objectives and Key Results (OKR) framework. It is designed to ensure goals are ambitious, measurable, and outcome-oriented rather than just a "to-do list" of tasks.

@@ -1,5 +1,8 @@
 ---
-thumbnail: "/assets/images/ui/gameui.png"
+id: game_ui_assets
+topicId: image
+subTopicId: ui
+title: High-Detail Game UI Assets
 ---
 
 # Template: High-Detail Game UI Assets

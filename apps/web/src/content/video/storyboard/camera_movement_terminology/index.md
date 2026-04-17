@@ -1,3 +1,9 @@
+---
+id: camera_movement_terminology
+topicId: video
+subTopicId: storyboard
+title: Camera Movement & Blocking
+---
 # Template: Camera Movement & Blocking
 
 Use this template to generate robust scene directions, dictating precisely how the camera should interact with the subjects. Useful for human DPs or video-gen models.

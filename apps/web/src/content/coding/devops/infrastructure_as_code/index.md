@@ -1,3 +1,9 @@
+---
+id: infrastructure_as_code
+topicId: coding
+subTopicId: devops
+title: Scalable Infrastructure as Code (IaC)
+---
 # Template: Scalable Infrastructure as Code (IaC)
 
 Use this template to provision and manage cloud resources with code. It is designed to act as a Site Reliability Engineer (SRE)—utilizing [TERRAFORM], [PULUMI], or [CLOUDFORMATION] to build modular, [IDEMPOTENT] infrastructure, managing [STATE_FILES] securely, and ensuring that your cloud environment is reproducible, versioned, and easily scalable.

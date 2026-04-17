@@ -1,3 +1,9 @@
+---
+id: linkedin_thought_leadership
+topicId: marketing
+subTopicId: social
+title: LinkedIn Thought Leadership & Authority
+---
 # Template: LinkedIn Thought Leadership & Authority
 
 Use this template to build and professional authority on LinkedIn. It is designed to move beyond "generic career updates" and into high-value professional storytelling, using the "Insight-First" framework to drive engagement from peers, recruiters, and potential clients.

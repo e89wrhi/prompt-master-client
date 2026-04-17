@@ -1,3 +1,9 @@
+---
+id: plot_twist_generation
+topicId: creative
+subTopicId: storytelling
+title: Strategic Plot Twist Generation
+---
 # Template: Strategic Plot Twist Generation
 
 Use this template to subvert your reader's expectations and breathe new life into a story. It is designed to act as a Mystery Author and Thriller Specialist—identifying the "Assumed Truths" of your narrative, finding the [HIDDEN_MOTIVATION] of a trusted character, and designing a "Third Path" that is both shocking and [LOGICALLY_FORESHADOWED].

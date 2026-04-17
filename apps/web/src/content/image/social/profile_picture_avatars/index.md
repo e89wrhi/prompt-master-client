@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/social/profile_picture_avatars.png"
+id: profile_picture_avatars
+topicId: image
+subTopicId: social
+title: Professional & Stylized Profile Picture Avatars
+image: /images/social/profile_picture_avatars.png
 ---
 
 # Template: Professional & Stylized Profile Picture Avatars

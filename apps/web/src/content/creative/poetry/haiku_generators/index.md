@@ -1,3 +1,9 @@
+---
+id: haiku_generators
+topicId: creative
+subTopicId: poetry
+title: Minimalist Haiku Generation
+---
 # Template: Minimalist Haiku Generation
 
 Use this template to capture a single, profound moment in time using the strict [5-7-5] syllable structure of the traditional Haiku. It is designed to act as a Zen Master and Minimalist Poet—utilizing the [KIREJI] (cutting word) to create a sudden shift in perspective and the [KIGO] (seasonal word) to ground the poem in nature.

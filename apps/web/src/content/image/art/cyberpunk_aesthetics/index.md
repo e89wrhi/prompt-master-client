@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/art/cyberpunk_aesthetics.png"
+id: cyberpunk_aesthetics
+topicId: image
+subTopicId: art
+title: High-Fidelity Cyberpunk Aesthetics
+image: /images/art/cyberpunk_aesthetics.png
 ---
 
 # Template: High-Fidelity Cyberpunk Aesthetics

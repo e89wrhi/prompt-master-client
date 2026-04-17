@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/art/abstract_concepts.png"
+id: abstract_concepts
+topicId: image
+subTopicId: art
+title: Evocative Abstract Art Prompts
+image: /images/art/abstract_concepts.png
 ---
 
 # Template: Evocative Abstract Art Prompts

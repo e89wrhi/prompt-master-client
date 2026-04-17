@@ -1,3 +1,9 @@
+---
+id: practice_quiz_creation
+topicId: education
+subTopicId: study
+title: Adaptive Practice Quiz Creation
+---
 # Template: Adaptive Practice Quiz Creation
 
 Use this template to generate high-quality practice exams and quizzes. It is designed to challenge your understanding by utilizing [DISTRACTORS] (plausible but wrong answers) in multiple-choice questions, varying difficulty levels, and providing "Immediate Feedback" loops that explain *why* an answer is correct or incorrect.

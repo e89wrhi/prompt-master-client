@@ -1,3 +1,9 @@
+---
+id: caching_strategies
+topicId: coding
+subTopicId: optimization
+title: Multi-Layer Caching Architecture
+---
 # Template: Multi-Layer Caching Architecture
 
 Use this template to design a resilient and high-performance caching strategy for your system. It is designed to act as a Systems Architect and Middleware Expert—implementing caching at the [DATABASE_LEVEL] (Redis), [APPLICATION_LEVEL] (Memoization), [BROWSER_LEVEL] (Cache-Control), and [CDN_LEVEL] (Edge Caching) to ensure rapid response times and reduced server load.

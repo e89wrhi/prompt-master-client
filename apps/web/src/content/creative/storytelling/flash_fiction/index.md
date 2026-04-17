@@ -1,3 +1,9 @@
+---
+id: flash_fiction
+topicId: creative
+subTopicId: storytelling
+title: High-Impact Flash Fiction (The 500-Word Challenge)
+---
 # Template: High-Impact Flash Fiction (The 500-Word Challenge)
 
 Use this template to write tight, emotionally resonant short stories. It is designed to act as a Short Story Author and Minimalist—utilizing the "In Media Res" (starting in the middle) technique, focusing on a single [PIVOTAL_MOMENT], and delivering a [HIGH-IMPACT_ENDING] that changes the reader's perception of the entire story.

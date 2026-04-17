@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/social/instagram_carousel_backgrounds.png"
+id: instagram_carousel_backgrounds
+topicId: image
+subTopicId: social
+title: High-Engagement Instagram Carousel Backgrounds
+image: /images/social/instagram_carousel_backgrounds.png
 ---
 
 # Template: High-Engagement Instagram Carousel Backgrounds

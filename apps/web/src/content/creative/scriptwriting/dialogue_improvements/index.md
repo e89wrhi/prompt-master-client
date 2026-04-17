@@ -1,3 +1,9 @@
+---
+id: dialogue_improvements
+topicId: creative
+subTopicId: scriptwriting
+title: High-Impact Dialogue & Subtext Refinement
+---
 # Template: High-Impact Dialogue & Subtext Refinement
 
 Use this template to transform "Functional" dialogue into "Memorable" dialogue. It is designed to act as a Screenwriter and Dialogue Expert—stripping away "On-the-Nose" exposition, adding [SUBTEXT] (where characters say one thing but mean another), and creating unique [CHARACTER_VOICES] through specific cadences, slang, and educational backgrounds.

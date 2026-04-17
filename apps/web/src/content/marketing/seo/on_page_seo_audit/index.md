@@ -1,3 +1,9 @@
+---
+id: on_page_seo_audit
+topicId: marketing
+subTopicId: seo
+title: Technical On-Page SEO Audit
+---
 # Template: Technical On-Page SEO Audit
 
 Use this template to identify the "Low-Hanging Fruit" optimizations on a specific page. It is designed to evaluate content-to-keyword relevance, technical metadata, internal linking, and image optimization to ensure your page is technically perfect for search engine crawlers.

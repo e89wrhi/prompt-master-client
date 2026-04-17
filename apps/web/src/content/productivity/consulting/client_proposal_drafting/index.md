@@ -1,3 +1,9 @@
+---
+id: client_proposal_drafting
+topicId: productivity
+subTopicId: consulting
+title: Professional Client Proposal Drafting
+---
 # Template: Professional Client Proposal Drafting
 
 Use this template to create compelling, high-stakes business proposals. It is designed to articulate value, define scope clearly, and present pricing in a way that minimizes friction and maximizes conversion.

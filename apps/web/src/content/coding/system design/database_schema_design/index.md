@@ -1,3 +1,9 @@
+---
+id: database_schema_design
+topicId: coding
+subTopicId: system design
+title: Strategic Database Schema Architecture
+---
 # Template: Strategic Database Schema Architecture
 
 Use this template to design high-integrity, scalable, and query-optimized database structures. It is designed to act as a Data Architect and Senior Backend Engineer—navigating the [SQL_VS_NOSQL] trade-offs, enforcing proper [NORMALIZATION], defining complex [RELATIONSHIPS], and architecting [INDEXING_AND_SHARDING] strategies that support billions of rows with millisecond latency.

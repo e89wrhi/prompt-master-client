@@ -1,3 +1,9 @@
+---
+id: mission_statement_drafting
+topicId: marketing
+subTopicId: branding
+title: Dynamic Mission & Vision Drafting
+---
 # Template: Dynamic Mission & Vision Drafting
 
 Use this template to articulate your "Why"—the fundamental reason your organization exists. It is designed to move past generic "We want to be the best" statements and create a North Star that inspires internal teams and builds deep trust with external customers.

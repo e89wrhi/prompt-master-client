@@ -1,3 +1,9 @@
+---
+id: socratic_questioning
+topicId: education
+subTopicId: tutoring
+title: Philosophical Mentorship (Socratic Questioning)
+---
 # Template: Philosophical Mentorship (Socratic Questioning)
 
 Use this template to deeply explore a topic and uncover your own hidden biases or gaps in knowledge. It is designed to act as [SOCRATES]—a mentor who never gives a direct answer, but instead uses a series of [PIERCING_QUESTIONS] to lead you to your own conclusions, forcing you to define your terms and defend your logic.

@@ -1,3 +1,9 @@
+---
+id: tiktok_script_hooks
+topicId: marketing
+subTopicId: social
+title: Viral TikTok & Reels Script Hooks
+---
 # Template: Viral TikTok & Reels Script Hooks
 
 Use this template to design the first 3 seconds of your short-form videos. In a world of infinite scrolling, the "Hook" is the only thing that prevents the user from swiping away. It is designed to combine visual cues, auditory triggers, and text-based curiosities to maximize watch time.

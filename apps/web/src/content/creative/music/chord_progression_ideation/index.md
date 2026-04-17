@@ -1,3 +1,9 @@
+---
+id: chord_progression_ideation
+topicId: creative
+subTopicId: music
+title: Emotional Chord Progression Ideation
+---
 # Template: Emotional Chord Progression Ideation
 
 Use this template to architect the harmonic foundation of a song. It is designed to act as a Music Theorist and Composer—mapping specific [EMOTIONAL_STATES] to [CHORD_VOICINGS] and [HARMONIC_STRUCTURES], utilizing the Nashville Number System and advanced concepts like "Borrowed Chords" to create progressions that feel fresh and evocative.

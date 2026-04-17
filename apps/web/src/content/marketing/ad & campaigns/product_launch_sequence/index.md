@@ -1,3 +1,9 @@
+---
+id: product_launch_sequence
+topicId: marketing
+subTopicId: ad & campaigns
+title: Strategic Product Launch Sequence
+---
 # Template: Strategic Product Launch Sequence
 
 Use this template to design a high-momentum "orchestrated" launch for a new product, feature, or service. It covers the full arc from the initial "Tease" to the "Launch Day" peak, and finally the "Urgency/Close" phase to maximize initial sales or signups.

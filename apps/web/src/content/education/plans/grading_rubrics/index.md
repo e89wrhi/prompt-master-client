@@ -1,3 +1,9 @@
+---
+id: grading_rubrics
+topicId: education
+subTopicId: plans
+title: Professional Grading Rubrics
+---
 # Template: Professional Grading Rubrics
 
 Use this template to create objective, clear, and fair evaluation frameworks for any student project or assignment. It is designed to move beyond "Pass/Fail" by defining 4-5 distinct levels of mastery across multiple criteria, ensuring that students know exactly what is expected of them to achieve an 'A'.

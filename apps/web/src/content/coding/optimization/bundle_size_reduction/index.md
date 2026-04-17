@@ -1,3 +1,9 @@
+---
+id: bundle_size_reduction
+topicId: coding
+subTopicId: optimization
+title: Intensive Bundle Size Optimization
+---
 # Template: Intensive Bundle Size Optimization
 
 Use this template to reduce the payload of your web applications for faster load times and improved SEO. It is designed to act as a Performance Engineer and Frontend Architect—utilizing [TREE_SHAKING], [CODE_SPLITTING], and [DYNAMIC_IMPORTS], auditing [HEAVY_DEPENDENCIES], and optimizing [ASSET_DELIVERY] to ensure your application reaches the "First Contentful Paint" as quickly as possible.

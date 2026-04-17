@@ -1,3 +1,9 @@
+---
+id: microservices_architecture
+topicId: coding
+subTopicId: system design
+title: Resilient Microservices Architecture
+---
 # Template: Resilient Microservices Architecture
 
 Use this template to decouple your monolith and build a modular, high-performance distributed system. It is designed to act as a Principal Architect—utilizing [DOMAIN_DRIVEN_DESIGN] to find service boundaries, implementing [INTER-SERVICE_COMMUNICATION] (REST/gRPC), and architecting [CENTRALIZED_OBSERVABILITY] to ensure your microservices are easy to maintain, scale, and debug.

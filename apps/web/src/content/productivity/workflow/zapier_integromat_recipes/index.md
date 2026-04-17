@@ -1,3 +1,9 @@
+---
+id: zapier_integromat_recipes
+topicId: productivity
+subTopicId: workflow
+title: Professional No-Code Logic & Recipes
+---
 # Template: Professional No-Code Logic & Recipes
 
 Use this template to design complex automated workflows using tools like Zapier or Make (Integromat). It is designed to think through the "If-This-Then-That" (IFTTT) logic, including multi-step filters, data formatting, and error handling to ensure your automations are resilient and scalable.

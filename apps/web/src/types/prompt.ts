@@ -23,6 +23,9 @@ export interface Prompt {
   description: string;
   template: string; // The content of index.md or actual prompt
   filePath: string; // Location of the .md file (e.g. "coding/api/auth-flow/index.md")
+  image?: string;
+  width?: number;
+  height?: number;
   examples: Example[];
   createdAt?: string;
   updatedAt?: string;

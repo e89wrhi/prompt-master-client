@@ -1,3 +1,9 @@
+---
+id: api_reference
+topicId: coding
+subTopicId: documentation
+title: Professional API Reference Documentation
+---
 # Template: Professional API Reference Documentation
 
 Use this template to create comprehensive, developer-frieindly documentation for your APIs. It is designed to act as a Technical Writer and Developer Advocate—adhering to the [OPENAPI_STRUCTURE], providing clear [ENDPOINTS_OVERVIEW], detailing [REQUEST/RESPONSE_EXAMPLES], and explicitly documenting [HTTP_STATUS_CODES] and [AUTHENTICATION_METHODS].

@@ -1,3 +1,9 @@
+---
+id: style_transfer
+topicId: creative
+subTopicId: art
+title: Artistic Style Transfer & Remixing
+---
 # Template: Artistic Style Transfer & Remixing
 
 Use this template to apply the visual language of an existing [ART_STYLE_OR_ARTIST] to a new [SOURCE_CONTENT]. It is designed to act as a Visual Remix Specialist—balancing the semantic meaning of your subject with the distinct technical markers of the target style (e.g., brushstrokes, color palettes, lighting patterns).

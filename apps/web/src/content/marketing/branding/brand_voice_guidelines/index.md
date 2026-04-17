@@ -1,3 +1,9 @@
+---
+id: brand_voice_guidelines
+topicId: marketing
+subTopicId: branding
+title: Professional Brand Voice Guidelines
+---
 # Template: Professional Brand Voice Guidelines
 
 Use this template to define how your brand speaks, writes, and interacts with the world. It is designed to ensure consistency across all touchpoints—from high-level website copy to 1:1 customer support emails—by defining the personality, vocabulary, and "vibe" of your organization.

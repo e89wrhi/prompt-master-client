@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/product/3d_product_mockups.png"
+id: 3d_product_mockups
+topicId: image
+subTopicId: product
+title: Professional 3D Product Mockups
+image: /images/product/3d_product_mockups.png
 ---
 
 # Template: Professional 3D Product Mockups

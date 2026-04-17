@@ -1,3 +1,9 @@
+---
+id: database_migration
+topicId: coding
+subTopicId: api
+title: Database Model & Migration
+---
 # Template: High-Integrity Database Migrations
 
 Use this template to design mission-critical database schema changes. It is designed to act as a Database Architect—utilizing [UP/DOWN_SCRIPTS], ensuring [ZERO-DOWNTIME] transitions, maintaining data integrity during type changes, and implementing proper [INDEXING_STRATEGIES] to prevent performance degradation on high-traffic tables.

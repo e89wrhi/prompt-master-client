@@ -1,3 +1,9 @@
+---
+id: kubernetes_manifests
+topicId: coding
+subTopicId: devops
+title: Production Kubernetes Manifests
+---
 # Template: Production Kubernetes Manifests
 
 Use this template to design scalable, self-healing, and production-ready Kubernetes environments. It is designed to act as a Kubernetes Operator—architecting [DEPLOYMENTS], managing [SERVICES], enforcing [RESOURCE_QUOTAS] (CPU/RAM), and implementing [INGRESS_CONFIGS] to ensure that your microservices stay healthy and accessible under any load.

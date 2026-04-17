@@ -1,3 +1,9 @@
+---
+id: sql_for_marketing_data
+topicId: marketing
+subTopicId: analytics
+title: Professional SQL for Marketing Analysis
+---
 # Template: Professional SQL for Marketing Analysis
 
 Use this template to generate robust SQL queries for marketing data analysis. It is designed to bridge the gap between "Raw Data" and "Business Intelligence," allowing you to calculate complex metrics like LTV, Cohort Retention, and Attribution across multiple tables.

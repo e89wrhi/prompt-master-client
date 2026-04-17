@@ -1,3 +1,9 @@
+---
+id: monitoring_and_alerting
+topicId: coding
+subTopicId: devops
+title: Full-Stack Monitoring & Alerting (Observability)
+---
 # Template: Full-Stack Monitoring & Alerting (Observability)
 
 Use this template to build a reliable observability layer for your applications. It is designed to act as an SRE and Observability Expert—utilizing [PROMETHEUS], [GRAFANA], or [DATADOG] to track [SLIs/SLOs], designing high-signal [DASHBOARDS], and architecting [ALERTING_RULES] that notify the right team before a system failure impacts users.

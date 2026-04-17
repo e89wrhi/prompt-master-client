@@ -1,3 +1,9 @@
+---
+id: paper_summarization
+topicId: education
+subTopicId: research
+title: Deep Academic Paper Summarization
+---
 # Template: Deep Academic Paper Summarization
 
 Use this template to distill dense research papers into actionable insights. It is designed to extract the "Skeleton" of a study—the methodology, key findings, and specific limitations—ensuring you understand the core contribution of the work without reading all 30 pages.

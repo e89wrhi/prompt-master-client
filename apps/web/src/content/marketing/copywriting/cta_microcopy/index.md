@@ -1,3 +1,9 @@
+---
+id: cta_microcopy
+topicId: marketing
+subTopicId: copywriting
+title: High-Conversion CTA Microcopy
+---
 # Template: High-Conversion CTA Microcopy
 
 Use this template to optimize the "last mile" of your conversion funnel: the buttons, links, and "Click Triggers" that drive the final action. It is designed to reduce user anxiety and increase motivation by transforming generic commands (like "Submit") into benefit-led invitations.

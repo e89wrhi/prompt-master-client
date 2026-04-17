@@ -1,5 +1,8 @@
 ---
-thumbnail: "/assets/images/ui/dashboard.png"
+id: dashboard_wireframes
+topicId: image
+subTopicId: ui
+title: Strategic Dashboard Wireframes
 ---
 
 # Template: Strategic Dashboard Wireframes

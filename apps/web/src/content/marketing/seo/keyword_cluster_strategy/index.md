@@ -1,3 +1,9 @@
+---
+id: keyword_cluster_strategy
+topicId: marketing
+subTopicId: seo
+title: Strategic Keyword Clustering & Hub-Spoke Modeling
+---
 # Template: Strategic Keyword Clustering & Hub-Spoke Modeling
 
 Use this template to build "Topical Authority" by grouping related keywords into semantic clusters. It is designed to create a "Hub and Spoke" (Pillar/Cluster) model where one primary page ranks for a broad term, supported by multiple specific "Spoke" articles that answer niche questions and build internal link equity.

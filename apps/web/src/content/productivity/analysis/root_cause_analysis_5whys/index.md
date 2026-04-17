@@ -1,3 +1,9 @@
+---
+id: root_cause_analysis_5whys
+topicId: productivity
+subTopicId: analysis
+title: Root Cause Analysis (5 Whys)
+---
 # Template: Root Cause Analysis (5 Whys)
 
 Use this template to move beyond surface-level symptoms and uncover the systemic failures causing a problem. It forces a recursive "Why?" line of questioning to identify the ultimate root cause and propose permanent fixes.

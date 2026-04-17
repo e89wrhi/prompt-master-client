@@ -1,3 +1,9 @@
+---
+id: product_ideation
+topicId: creative
+subTopicId: brainstorming
+title: Innovation-Led Product Ideation (SCAMPER)
+---
 # Template: Innovation-Led Product Ideation (SCAMPER)
 
 Use this template to design new products or improve existing ones. It is designed to act as a Product Lead and Innovation Consultant—utilizing the [SCAMPER] method and [USER_PAIN_POINTS] to find "Blue Ocean" opportunities where your product solves a problem in a way no one else has.

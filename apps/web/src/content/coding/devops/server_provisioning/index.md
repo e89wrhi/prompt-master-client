@@ -1,3 +1,9 @@
+---
+id: server_provisioning
+topicId: coding
+subTopicId: devops
+title: Secure & Automated Server Provisioning
+---
 # Template: Secure & Automated Server Provisioning
 
 Use this template to set up fresh Linux servers with speed and consistency. It is designed to act as a Linux System Administrator and Security Engineer—utilizing [ANSIBLE], [BASH_SCRIPTS], or [CLOUD-INIT] to automate [OS_HARDENING], package installation, [FIREWALL_CONFIGS], and [SYSTEMD_SERVICE] creation to ensure your bare-metal or VPS environments are secure from the first minute.

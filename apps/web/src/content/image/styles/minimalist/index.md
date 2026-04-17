@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/minimalist.png"
+id: minimalist
+topicId: image
+subTopicId: styles
+title: 'Style: Modern Minimalist Design'
+image: /images/styles/minimalist.png
 ---
 
 # Style: Modern Minimalist Design
 
-![Minimalist](file:///d:/dev/_projects/prompt-library/assets/images/minimalist.png)
+![Minimalist](/images/styles/minimalist.png)
 
 This style is defined by the philosophy of "Less is More." It emphasizes clean lines, vast negative space, a limited color palette (Monochrome/Neutrals), soft lighting, and a single, strong focal point to create a sense of calm and sophistication.
 

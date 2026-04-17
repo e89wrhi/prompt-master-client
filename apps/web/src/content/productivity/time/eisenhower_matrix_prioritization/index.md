@@ -1,3 +1,9 @@
+---
+id: eisenhower_matrix_prioritization
+topicId: productivity
+subTopicId: time
+title: Professional Eisenhower Matrix Prioritization
+---
 # Template: Professional Eisenhower Matrix Prioritization
 
 Use this template to escape the "Urgency Trap" by categorizing tasks into four quadrants based on their Importance and Urgency. It is designed to help you stop "firefighting" and start focusing on the high-value activities that drive long-term success.

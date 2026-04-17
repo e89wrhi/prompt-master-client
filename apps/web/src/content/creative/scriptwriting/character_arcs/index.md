@@ -1,3 +1,9 @@
+---
+id: character_arcs
+topicId: creative
+subTopicId: scriptwriting
+title: Dynamic Character Arcs (Growth & Transformation)
+---
 # Template: Dynamic Character Arcs (Growth & Transformation)
 
 Use this template to design multi-dimensional characters that evolve throughout your story. It is designed to act as a Script Doctor and Character Architect—identifying the [PHANTOM_WOUND] (the past trauma), the [FATAL_FLAW] (what holds them back), and the [DESIRE_VS_NEED] conflict that drives the entire narrative transformation.

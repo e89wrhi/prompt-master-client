@@ -1,3 +1,9 @@
+---
+id: stable_diffusion_parameters
+topicId: creative
+subTopicId: art
+title: Stable Diffusion Technical Parameters
+---
 # Template: Stable Diffusion Technical Parameters
 
 Use this template to generate high-fidelity, controllable imagery using the Stable Diffusion (XL/1.5) framework. It is designed to act as a Technical Artist—utilizing [WEIGHTED_TOKENS], structured [NEGATIVE_PROMPTS], and precise [SAMPLING_STEPS] to achieve professional results often impossible with simple natural language.

@@ -1,5 +1,8 @@
 ---
-thumbnail: "/assets/images/ui/web_design.png"
+id: web_design_mockups
+topicId: image
+subTopicId: ui
+title: High-Fidelity Web Design Mockups
 ---
 
 # Template: High-Fidelity Web Design Mockups

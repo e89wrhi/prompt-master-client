@@ -1,3 +1,9 @@
+---
+id: sales_letter_drafts
+topicId: marketing
+subTopicId: copywriting
+title: Professional Direct Response Sales Letter
+---
 # Template: Professional Direct Response Sales Letter
 
 Use this template to draft high-stakes sales letters for consulting offers, masterminds, or premium digital products. It follows the traditional long-form direct response structure, designed to build immense desire, anchor the price against a larger problem, and remove risk with a powerful "Irresistible Offer."

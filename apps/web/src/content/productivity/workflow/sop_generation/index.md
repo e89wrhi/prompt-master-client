@@ -1,3 +1,9 @@
+---
+id: sop_generation
+topicId: productivity
+subTopicId: workflow
+title: Professional SOP Generation
+---
 # Template: Professional SOP Generation
 
 Use this template to create clear, bulletproof Standard Operating Procedures (SOPs). It is designed to ensure that any team member, regardless of their seniority, can perform a complex task with zero errors by following high-fidelity instructions and troubleshooting guidelines.

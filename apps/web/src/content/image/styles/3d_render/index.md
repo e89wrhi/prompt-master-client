@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/3d_render.png"
+id: 3d_render
+topicId: image
+subTopicId: styles
+title: 'Style: High-Fidelity 3D Render'
+image: /images/styles/3d_render.png
 ---
 
 # Style: High-Fidelity 3D Render
 
-![3D Render](file:///d:/dev/_projects/prompt-library/assets/images/3d_render.png)
+![3D Render](/images/styles/3d_render.png)
 
 This style focuses on the digital precision and physical accuracy of 3D modeling. It utilizes advanced lighting (Global Illumination), material properties (Refraction, Sub-surface scattering), and high-resolution textures to create images that look like they were built in Unreal Engine 5 or Octane Render.
 

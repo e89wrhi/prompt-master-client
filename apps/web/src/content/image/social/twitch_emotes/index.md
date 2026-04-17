@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/social/twitch_emotes.png"
+id: twitch_emotes
+topicId: image
+subTopicId: social
+title: High-Visibility Twitch & Discord Emotes
+image: /images/social/twitch_emotes.png
 ---
 
 # Template: High-Visibility Twitch & Discord Emotes

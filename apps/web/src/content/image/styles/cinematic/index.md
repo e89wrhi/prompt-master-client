@@ -1,10 +1,14 @@
 ---
-thumbnail: "/assets/images/styles/cinematic.png"
+id: cinematic
+topicId: image
+subTopicId: styles
+title: 'Style: Epic Cinematic Photography'
+image: /images/styles/cinematic.png
 ---
 
 # Style: Epic Cinematic Photography
 
-![Cinematic](file:///d:/dev/_projects/prompt-library/assets/images/cinematic.png)
+![Cinematic](/images/styles/cinematic.png)
 
 This style aims for the high-production value of a feature film. It emphasizes dramatic lighting (Chiaroscuro, rim lighting), anamorphic lens flares, shallow depth of field (Bokeh), and professional color grading (Teal & Orange) to tell a large-scale visual story.
 

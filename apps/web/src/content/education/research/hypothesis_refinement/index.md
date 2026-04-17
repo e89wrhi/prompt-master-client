@@ -1,3 +1,9 @@
+---
+id: hypothesis_refinement
+topicId: education
+subTopicId: research
+title: Scientific Hypothesis Refinement
+---
 # Template: Scientific Hypothesis Refinement
 
 Use this template to transform a broad research interest into a testable, peer-review-ready hypothesis. It is designed to utilize the "Scientific Method" framework to identify Independent and Dependent variables (IV/DV), establish a predicted relationship, and ensure the statement is both specific and falsifiable.

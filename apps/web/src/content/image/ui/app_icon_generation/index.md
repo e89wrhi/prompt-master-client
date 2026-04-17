@@ -1,5 +1,8 @@
 ---
-thumbnail: "/assets/images/ui/app_icon.png"
+id: app_icon_generation
+topicId: image
+subTopicId: ui
+title: Professional App Icon Generation
 ---
 
 # Template: Professional App Icon Generation

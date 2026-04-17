@@ -1,3 +1,9 @@
+---
+id: docker_containerization
+topicId: coding
+subTopicId: devops
+title: Optimized Docker Containerization
+---
 # Template: Optimized Docker Containerization
 
 Use this template to build production-ready, ultra-small, and secure Docker images. It is designed to act as a Containerization Expert—implementing [MULTI-STAGE_BUILDS], minimizing [LAYER_COUNT], utilizing [DISTROLESS/ALPINE] base images, and ensuring proper [SECURITY_POLICIES] (e.g., non-root users) for your applications.

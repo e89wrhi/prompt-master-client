@@ -1,3 +1,9 @@
+---
+id: welcome_series_drip
+topicId: marketing
+subTopicId: email marketing
+title: Strategic Welcome Series Drip
+---
 # Template: Strategic Welcome Series Drip
 
 Use this template to design a multi-email onboarding sequence that turns "New Subscribers" into "Loyal Fans." It is designed to introduce your brand's personality, provide immediate value (the "Quick Win"), and set the stage for your primary product or service offer without being overly aggressive.

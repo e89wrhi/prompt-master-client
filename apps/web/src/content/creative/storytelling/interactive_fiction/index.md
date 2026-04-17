@@ -1,3 +1,9 @@
+---
+id: interactive_fiction
+topicId: creative
+subTopicId: storytelling
+title: Branching Narrative & Interactive Fiction
+---
 # Template: Branching Narrative & Interactive Fiction
 
 Use this template to design engaging "Choose Your Own Adventure" style stories. It is designed to act as a Game Designer and Narrative Lead—mapping out [BRANCH_POINTS], managing [PLAYER_STATE] (e.g., hidden items, health, trust levels), and ensuring every choice has a meaningful consequence that leads to one of several [VARYING_ENDINGS].

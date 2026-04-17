@@ -1,3 +1,9 @@
+---
+id: google_ad_headlines
+topicId: marketing
+subTopicId: ad & campaigns
+title: High-CTR Google Ad Headlines
+---
 # Template: High-CTR Google Ad Headlines
 
 Use this template to generate precise, keyword-optimized headlines for Google Search Ads. It is designed to maximize your Click-Through Rate (CTR) by strictly adhering to character limits while incorporating urgency, social proof, and direct benefits.

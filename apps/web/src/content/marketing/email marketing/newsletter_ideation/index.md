@@ -1,3 +1,9 @@
+---
+id: newsletter_ideation
+topicId: marketing
+subTopicId: email marketing
+title: Professional Newsletter Ideation
+---
 # Template: Professional Newsletter Ideation
 
 Use this template to design a newsletter that people actually look forward to opening. It is designed to move beyond "generic updates" by establishing clear editorial pillars, engaging subject lines, and a consistent "Value-per-Scrol" (VPS) ratio that builds long-term brand equity.

@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import sharp from 'sharp';
 
 // use: npx tsx scripts/sync-prompts.ts
 // Recursively find all md files
@@ -13,7 +14,6 @@ function getAllMarkdownFiles(dirPath: string, arrayOfFiles: string[] = []) {
       arrayOfFiles = getAllMarkdownFiles(fullPath, arrayOfFiles);
     } else if (file.endsWith('.md')) {
       // Ignore eg.md if they exist separately, or include and distinguish?
-      // Since all prompts are currently index.md or actual prompt template files:
       if (file !== 'eg.md') {
         arrayOfFiles.push(fullPath);
       }
@@ -24,36 +24,61 @@ function getAllMarkdownFiles(dirPath: string, arrayOfFiles: string[] = []) {
 }
 
 const contentDir = path.join(process.cwd(), 'src/content');
-let files: string[];
-try {
-  files = getAllMarkdownFiles(contentDir);
-} catch (e) {
-  files = [];
+
+async function sync() {
+  let files: string[];
+  try {
+    files = getAllMarkdownFiles(contentDir);
+  } catch (e) {
+    files = [];
+  }
+
+  const itemsPromises = files.map(async (filePath) => {
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const { data } = matter(fileContent);
+
+    // We only care about frontmatter-infused markdown files
+    if (!data.id) return null;
+
+    const item: any = {
+      id: data.id,
+      topicId: data.topicId,
+      subTopicId: data.subTopicId,
+      title: data.title,
+      description: data.description || '',
+      template: '', // Client doesn't need to load the full template in memory for Search
+      filePath: filePath.replace(contentDir + path.sep, '').replace(/\\/g, '/'),
+      examples: []
+    };
+
+    // Extra twist for image topic: link to thumbnail and get resolution
+    if (data.topicId === 'image' && data.subTopicId) {
+      const pngPath = `/images/${data.subTopicId}/${data.id}.png`;
+      const fullPngPath = path.join(process.cwd(), 'public', pngPath);
+      if (fs.existsSync(fullPngPath)) {
+        item.image = pngPath;
+        try {
+          const metadata = await sharp(fullPngPath).metadata();
+          item.width = metadata.width;
+          item.height = metadata.height;
+        } catch (e) {
+          console.warn(`Error reading metadata for ${fullPngPath}`);
+        }
+      }
+    }
+
+    return item;
+  });
+
+  const items = (await Promise.all(itemsPromises)).filter(Boolean);
+
+  fs.writeFileSync(
+    path.join(contentDir, 'generated-items.json'),
+    JSON.stringify(items, null, 2),
+    'utf8'
+  );
+
+  console.log(`Synced ${items.length} prompts to generated-items.json`);
 }
 
-const items = files.map(filePath => {
-  const fileContent = fs.readFileSync(filePath, 'utf8');
-  const { data, content } = matter(fileContent);
-
-  // We only care about frontmatter-infused markdown files
-  if (!data.id) return null;
-
-  return {
-    id: data.id,
-    topicId: data.topicId,
-    subTopicId: data.subTopicId,
-    title: data.title,
-    description: data.description || '',
-    template: '', // Client doesn't need to load the full template in memory for Search
-    filePath: filePath.replace(contentDir + path.sep, '').replace(/\\/g, '/'),
-    examples: []
-  };
-}).filter(Boolean);
-
-fs.writeFileSync(
-  path.join(contentDir, 'generated-items.json'),
-  JSON.stringify(items, null, 2),
-  'utf8'
-);
-
-console.log(`Synced ${items.length} prompts to generated-items.json`);
+sync().catch(console.error);

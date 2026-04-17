@@ -1,3 +1,9 @@
+---
+id: graphql_schema
+topicId: coding
+subTopicId: api
+title: GraphQL Schema & Resolvers
+---
 # Template: Type-Safe GraphQL Schema Design
 
 Use this template to design scalable, self-documenting GraphQL APIs. It is designed to act as a GraphQL Architect—defining precise [TYPES], building [QUERIES_AND_MUTATIONS] that follow Best Practices, managing complex relationships with [DATA_LOADERS], and implementing [PAGINATION] (Relay-style) to ensure performance across deep nested data structures.

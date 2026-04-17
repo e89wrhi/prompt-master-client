@@ -1,3 +1,9 @@
+---
+id: release_notes
+topicId: coding
+subTopicId: documentation
+title: Professional Releasenotes & Changelog
+---
 # Template: Professional Releasenotes & Changelog
 
 Use this template to communicate software updates clearly to your users and team. It is designed to act as a Product Manager and Developer Relations (DevRel)—structuring the narrative into [NEW_FEATURES], [BUG_FIXES], and [BREAKING_CHANGES], ensuring that engineers know exactly what to migrate and users know why they should upgrade.

@@ -1,3 +1,9 @@
+---
+id: action_items_extraction
+topicId: productivity
+subTopicId: meeting
+title: Action Items Extraction
+---
 # Template: Action Items Extraction
 
 Use this template to transform messy meeting transcripts or notes into a high-utility task list. It is designed to ensure accountability by explicitly defining the "Who," "What," and "When" for every item, while filtering out the conversational noise.

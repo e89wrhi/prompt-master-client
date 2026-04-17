@@ -1,3 +1,9 @@
+---
+id: architecture_adr
+topicId: coding
+subTopicId: documentation
+title: Strategic Architecture Decision Record (ADR)
+---
 # Template: Strategic Architecture Decision Record (ADR)
 
 Use this template to document critical architectural choices made during development. It is designed to act as a System Architect—capturing the [CONTEXT] of the problem, the [ALTERNATIVES] considered, the [DECISION] taken, and the [CONSEQUENCES] (both positive and negative), ensuring the "Why" behind the code is preserved for future engineers.

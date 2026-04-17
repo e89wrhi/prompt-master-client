@@ -1,3 +1,9 @@
+---
+id: go_to_market_strategy
+topicId: productivity
+subTopicId: strategy
+title: Professional Go-To-Market (GTM) Strategy
+---
 # Template: Professional Go-To-Market (GTM) Strategy
 
 Use this template to launch a new product, enter a new market, or reposition an existing brand. It is designed to bridge the gap between "product development" and "revenue generation" by defining your Ideal Customer Profile (ICP), acquisition channels, and the competitive "moat."

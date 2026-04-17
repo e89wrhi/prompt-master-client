@@ -1,3 +1,9 @@
+---
+id: process_automation_ideas
+topicId: productivity
+subTopicId: workflow
+title: Process Automation Ideation & Strategy
+---
 # Template: Process Automation Ideation & Strategy
 
 Use this template to identify the repetitive, low-value tasks that are draining your team's time. It is designed to evaluate potential automations based on their ROI, technical feasibility, and impact on workflow speed, helping you decide whether to use a No-Code tool or a custom script.

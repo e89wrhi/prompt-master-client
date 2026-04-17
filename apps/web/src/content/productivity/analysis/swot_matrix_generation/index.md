@@ -1,3 +1,9 @@
+---
+id: swot_matrix_generation
+topicId: productivity
+subTopicId: analysis
+title: Professional SWOT Analysis
+---
 # Template: Professional SWOT Analysis
 
 Use this template to evaluate a project, business venture, or product concept. It organizes internal factors (Strengths/Weaknesses) and external factors (Opportunities/Threats) into a 2x2 matrix to inform strategic decision-making.

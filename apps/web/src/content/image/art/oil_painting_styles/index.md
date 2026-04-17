@@ -1,5 +1,9 @@
 ---
-thumbnail: "/assets/images/art/oil_painting_styles.png"
+id: oil_painting_styles
+topicId: image
+subTopicId: art
+title: Master-Level Oil Painting Styles
+image: /images/art/oil_painting_styles.png
 ---
 
 # Template: Master-Level Oil Painting Styles
