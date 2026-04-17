@@ -1,9 +1,3 @@
----
-id: after_effects_expressions
-topicId: video
-subTopicId: motion
-title: After Effects Expressions
----
 # Template: After Effects Expressions
 
 Use this template to generate robust, error-free JavaScript/ExtendScript expressions for Adobe After Effects. This ensures the AI outputs code that correctly links properties, handles looping, or applies physics-based math to layers.

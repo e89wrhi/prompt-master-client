@@ -1,9 +1,3 @@
----
-id: sora_physics_prompts
-topicId: video
-subTopicId: motion
-title: Sora & Complex Physics Prompts
----
 # Template: Sora & Complex Physics Prompts
 
 Use this template for bleeding-edge AI models (like OpenAI's Sora) that understand full 3D physics, material intersections, and fluid dynamics over extended durations.

@@ -1,9 +1,3 @@
----
-id: lighting_setup_diagrams
-topicId: video
-subTopicId: storyboard
-title: Lighting Setup Directives
----
 # Template: Lighting Setup Directives
 
 Use this template to design precise lighting ratios and setups (Rembrandt, High-Key, Low-Key) for 3D renders, video sets, or visual generation tools.

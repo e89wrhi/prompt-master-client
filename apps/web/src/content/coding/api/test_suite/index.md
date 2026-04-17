@@ -1,47 +1,40 @@
----
-id: test_suite
-topicId: coding
-subTopicId: api
-title: Comprehensive Test Suite
----
-# Template: Comprehensive Test Suite
+# Template: Comprehensive API Test Suite
 
-Use this template to generate robust unit or integration tests for your existing backend code. This overrides the AI's tendency to write fragile "happy-path only" test cases.
+Use this template to ensure the reliability and security of your API endpoints. It is designed to act as a Quality Assurance Engineer and Lead Developer—implementing [UNIT_TESTS] for business logic, [INTEGRATION_TESTS] for database and external service flows, and designing a [MOCKING_STRATEGY] that simulates real-world failure states to prevent production surprises.
 
 ## 📋 Prompt Template
 
 ```text
-Act as an expert QA Automation Engineer. Write a comprehensive suite of [TEST_TYPE] tests for the following backend code.
+Act as a Senior QA Engineer and Lead Developer. Help me design a Test Suite for the following [API_ENDPOINT/SERVICE].
 
-### Test Requirements:
-1. **Framework**: Use [TEST_FRAMEWORK] and use [ASSERTION_LIBRARY/MOCKING_LIBRARY] for assertions and mocks.
-2. **Structure**: 
-   - Use clear `describe` and `it` blocks (or equivalent). 
-   - Adopt the "Arrange, Act, Assert" (AAA) pattern.
-3. **Scenarios to Cover**:
-   - ✅ The Happy Path (optimal inputs).
-   - ❌ Expected Edge Cases (missing inputs, maximum limits hit).
-   - 🚨 Error Handling (database timeout, invalid validation).
-4. **Mocking Rules**: 
-   - Completely mock out the database layer, external API calls, and the system clock where relevant.
-   - Do NOT mock the internal core business logic.
+### Testing Context:
+- **Major Functionality**: [e.g., User registration, processing a payment, generating a PDF report].
+- **Tech Stack**: [e.g., Jest with Supertest, Pytest with FactoryBoy, Vitest].
+- **Infrastructure**: [e.g., PostgreSQL DB, Redis Cache, Stripe External API].
 
-### The Code to Test:
-```[LANGUAGE]
-[INSERT_YOUR_EXISTING_CODE_HERE]
-```
+### Test Strategy:
+1. **The "Happy Path" (Success)**: Outline the 3 most important [SUCCESS_SCENARIOS] to verify.
+2. **The "Edge Case" Audit**: Identify 3 [UNCOMMON_INPUTS] that could break the logic (e.g., "Empty strings," "Overlapping date ranges," "Negative amounts").
+3. **The "Security & Permission" Check**: Design tests to ensure [UNAUTHORIZED_USERS] cannot access this resource.
+4. **The Mocking Blueprint**: Provide a strategy for [MOCKING_EXTERNAL_DEPENDENCIES] (e.g., "Mocking the Stripe API call," "Faking the S3 bucket upload").
+5. **CI/CD Integration**: Suggest a [TEST_REPORT_FORMAT] that clearly identifies where failures occurred during the build process.
 
-### Constraints:
-- Focus on asserting actual side-effects and returned data, not just testing whether a mock was called.
+### Output Constraints:
+- Use a Methodical, Robust, and Coverage-Focused tone.
+- Conclude with "The Coverage Map"—a table showing each test type and what it protects.
+- Provide all code snippets in [TEST_RUNNER] compatible syntax.
 ```
 
 ## 🧩 Variables to Fill Out
 
-- `[TEST_TYPE]` - Choose `Unit`, `Integration`, or `E2E`.
-- `[TEST_FRAMEWORK]` - e.g., Jest, PyTest, JUnit.
-- `[ASSERTION_LIBRARY/MOCKING_LIBRARY]` - e.g., Sinon, unittest.mock, Mockito.
-- `[INSERT_YOUR_EXISTING_CODE_HERE]` - Paste the controller or service method you just wrote.
+- `[API_ENDPOINT / SERVICE]` - The target of the test.
+- `[UNIT_TESTS]` - Testing a single function.
+- `[INTEGRATION_TESTS]` - Testing how parts work together.
+- `[MOCKING_STRATEGY]` - Isolating the code from the internet.
 
 ## 💡 Pro-Tips
-- **Specify what to mock:** The AI will often over-mock or under-mock. Explicitly stating "mock the database, test the logic" forces it to write useful assertions.
-- **Force the AAA pattern:** The `Arrange, Act, Assert` structural requirement makes AI-generated tests far easier for humans to read and maintain.
+
+- **Test the "Negative" First:** A good test suite tries to [BREAK_THE_CODE]. Ask the AI to: "Identify 5 ways this endpoint could [SILENTLY_FAIL] and write tests to catch them."
+- **Data Factories for Clean DBs:** Don't rely on existing DB data. Ask for: "A [FACTORY_SETUP] that generates random, valid test data for every test run."
+- **Mocking the Time:** If your code depends on `Date.now()`, it's hard to test. Ask the AI to: "Provide a strategy for [MOCKING_THE_SYSTEM_TIME] to test expiration logic."
+---

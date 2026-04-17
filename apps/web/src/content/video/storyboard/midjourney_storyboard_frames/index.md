@@ -1,9 +1,3 @@
----
-id: midjourney_storyboard_frames
-topicId: video
-subTopicId: storyboard
-title: Midjourney Storyboards
----
 # Template: Midjourney Storyboards
 
 Use this template to generate ultra-consistent cinematic storyboard frames inside of Midjourney by dictating aspect ratios, film stocks, and specific camera blocking.

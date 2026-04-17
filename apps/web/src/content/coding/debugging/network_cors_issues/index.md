@@ -1,44 +1,40 @@
----
-id: network_cors_issues
-topicId: coding
-subTopicId: debugging
-title: Network & CORS Debugging
----
-# Template: Network & CORS Debugging
+# Template: Network & CORS Issue Resolution
 
-Use this template when dealing with elusive network errors like Preflight failures, bad proxies, SSL cert issues, or weird HTTP 502s.
+Use this template to identify and fix cross-origin resource sharing (CORS) errors and complex network failures. It is designed to act as a Network Engineer and DevSecOps Specialist—analyzing [OPTIONS_REQUESTS], identifying misconfigured [ALOWED_ORIGINS], and providing the precise server-side headers or proxy configurations needed to restore secure communication between your frontend and backend.
 
 ## 📋 Prompt Template
 
 ```text
-Act as a Network and Infrastructure Engineer. I have a [CORS_ERROR / TIMEOUT / PROXY_ERROR] occurring between my frontend and backend.
+Act as a Senior Network Engineer and DevSecOps Specialist. I am hitting a [NETWORK/CORS] error in my application.
 
-### Architecture Overview:
-- **Frontend App**: [e.g., React hosted on Vercel at https://app.example.com]
-- **Backend App**: [e.g., Express API hosted on Heroku at https://api.example.com]
-- **Intermediaries**: [e.g., Cloudflare, Nginx reverse proxy]
+### Error Context:
+- **Observed Error**: [e.g., "Access to fetch at 'API_URL' from origin 'UI_URL' has been blocked by CORS policy"].
+- **Environment**: [e.g., Localhost, Production on Vercel, AWS CloudFront].
+- **Tech Stack**: [e.g., Next.js frontend, Python/FastAPI backend].
 
-### The Exact Browser/Network Error:
-```text
-[PASTE BROWSER CONSOLE ERROR OR RAW HTTP HEADERS]
-```
+### Debugging Strategy:
+1. **The Request Audit**: Analyze the [NETWORK_TAB] details. Is it a preflight (OPTIONS) request failure or the actual GET/POST?
+2. **Origin Analysis**: Verify if the [ORIGIN] is correctly listed in the `Access-Control-Allow-Origin` header and if [CREDENTIALS] (cookies/auth) are being passed.
+3. **Server-Side Fix**: Provide a code snippet for the [BACKEND_FRAMEWORK] to allow the specific origin, methods (GET, POST, etc.), and headers (Content-Type, Authorization).
+4. **Proxy/Bypass Recommendation**: If a direct fix isn't possible, suggest a [REVERSE_PROXY] (e.g., Nginx config) or a [NEXT_AUTH] proxy solution to bypass the overhead.
+5. **Security Check**: Ensure that allowing this origin doesn't create a [CSRF_VULNERABILITY].
 
-### Backend Configuration:
-```[LANGUAGE]
-[PASTE THE SERVERSIDE CORS CONFIG OR REVERSE PROXY CONFIG]
-```
-
-### Task:
-1. Explain exactly why the browser or proxy is rejecting this request based on the headers provided.
-2. Provide the exact piece of configuration (e.g., Express CORS middleware config, Nginx `location` block) that will explicitly allow this request to succeed safely.
-3. Identify if any credentials (cookies, authorization headers) require special handling in this setup.
+### Output Constraints:
+- Use a Technical, Precise, and Solution-Oriented tone.
+- Present the solution in a "Quick Fix" (Development) vs "Secure Fix" (Production) format.
+- Conclude with "The Network Handshake"—an explanation of why the browser blocked this specific request.
 ```
 
 ## 🧩 Variables to Fill Out
 
-- `[CORS_ERROR ...]` - Define what type of network error it is.
-- `[Architecture Overview]` - Include the distinct Origins (scheme, domain, port) for both parties. CORS requires exact matches!
+- `[BACKEND_FRAMEWORK]` - e.g., Express.js, Django, Go-fiber.
+- `[NETWORK_TAB]` - Chrome DevTools, Firefox Network Monitor.
+- `[ALLOWED_ORIGINS]` - The list of safe URLs.
+- `[OPTIONS_REQUEST]` - The pre-flight check.
 
 ## 💡 Pro-Tips
-- **Origins matter:** Don't just say "My React app". Say "My React app running on `http://localhost:3000`". The AI needs the port and protocol to fix CORS.
-- **Copy cURL:** If possible, copy the failing request as a cURL command from the Network tab and paste that into the prompt for maximum context.
+
+- **Wildcards are for Dev only:** Never use `Access-Control-Allow-Origin: *` in production. Ask the AI to: "Design a [DYNAMIC_ORIGIN_VALIDATOR] for my Production environment."
+- **Check the SSL Certificate:** Sometimes a CORS error is actually an [SSL_MISMATCH] (connecting from HTTPS to HTTP). Ask the AI to: "Verify the protocol consistency across my environments."
+- **Vary Header for Caching:** If your API serves multiple origins, remember the [Vary:_Origin] header to prevent cache poisoning. Ask why this matters for your specific setup.
+---

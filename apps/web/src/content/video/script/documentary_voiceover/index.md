@@ -1,9 +1,3 @@
----
-id: documentary_voiceover
-topicId: video
-subTopicId: script
-title: Documentary Voiceover
----
 # Template: Documentary Voiceover
 
 Use this template to generate dramatic, compelling narration scripts for long-form documentary content, focusing strongly on cadence, thematic weight, and emotional arcs.

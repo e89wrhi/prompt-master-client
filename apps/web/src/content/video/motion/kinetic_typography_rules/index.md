@@ -1,9 +1,3 @@
----
-id: kinetic_typography_rules
-topicId: video
-subTopicId: motion
-title: Kinetic Typography & Text Animation
----
 # Template: Kinetic Typography & Text Animation
 
 Use this template to generate precise guidelines for animating on-screen text, subtitles, or title sequences. This is ideal when instructing an AI, an intern, or a scripting tool on how to present text dynamically.

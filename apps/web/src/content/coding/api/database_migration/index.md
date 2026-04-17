@@ -1,43 +1,40 @@
----
-id: database_migration
-topicId: coding
-subTopicId: api
-title: Database Model & Migration
----
-# Template: Database Model & Migration
+# Template: High-Integrity Database Migrations
 
-Use this template when you need to design a robust database schema, generate ORM models, or write raw SQL migrations. It enforces database optimization best practices like indexing and foreign constraints.
+Use this template to design mission-critical database schema changes. It is designed to act as a Database Architect—utilizing [UP/DOWN_SCRIPTS], ensuring [ZERO-DOWNTIME] transitions, maintaining data integrity during type changes, and implementing proper [INDEXING_STRATEGIES] to prevent performance degradation on high-traffic tables.
 
 ## 📋 Prompt Template
 
 ```text
-Act as a Senior Database Administrator and Backend Developer. I need to implement a new database schema for a [FEATURE_NAME] feature.
+Act as a Database Architect and Senior Data Engineer. Help me design a migration for the following [DATABASE_TYPE] schema change.
 
-### Requirements:
-1. **ORM / Technology**: [e.g., Prisma, TypeORM, SQLAlchemy, Raw PostgreSQL].
-2. **Entities**: 
-   - We need to model the following core entities: [List 1-3 core entities].
-   - Provide the exact mapping between these entities (e.g., One-to-Many, Many-to-Many).
-3. **Fields & Constraints**:
-   - Give me strict data types and constraints (e.g., non-null, unique, default values).
-   - Add audit fields (createdAt, updatedAt) to every table.
-4. **Performance**:
-   - Explicitly define the necessary database indexes (B-tree, Hash) needed to optimize a query that fetches [Explain common query, e.g., "all active orders by user ID"].
-   - Include cascading rules for deletions where appropriate.
+### Migration Context:
+- **The Task**: [e.g., Adding a many-to-many relationship, splitting a 'Users' table into 'Users' and 'Profiles', changing a column from String to JSONB].
+- **Current Stack**: [e.g., PostgreSQL with Prisma, MySQL with TypeORM, MongoDB].
+- **Production Status**: [e.g., High-traffic table with 10M+ rows, internal tool with low traffic].
 
-### Code Implementation:
-Generate the schema definition file and the corresponding SQL migration script.
+### Migration Requirements:
+1. **The Step-by-Step Logic**: Provide the [UP] and [DOWN] (Rollback) logic.
+2. **Data Integrity Guard**: How do we handle [EXISTING_DATA]? (e.g., "Script to migrate existing emails into the new table," "Handling null values in the new required column").
+3. **Zero-Downtime Strategy**: If the table is large, describe how to avoid [LOCKING_ISSUES] (e.g., "Add column as nullable, backfill, then add constraint").
+4. **Indexing & Performance**: Suggest which [COLUMNS] need new indexes and what type (B-tree, GIN, Hash) is most efficient for upcoming queries.
+5. **Validation Query**: Provide a SQL query to [VERIFY_SUCCESS] after the migration is applied.
 
-### Constraints:
-- Use standard naming conventions: lowercase plural for table names, camelCase for column names in the ORM, and snake_case for column names in the database.
+### Output Constraints:
+- Use a Precise, Risk-Averse, and Technical tone.
+- Conclude with "The Rollback Plan"—a clear set of instructions for when things go wrong.
+- Provide all scripts in copy-pasteable blocks for the [MIGRATION_TOOL].
 ```
 
 ## 🧩 Variables to Fill Out
 
-- `[FEATURE_NAME]` - The core system you're building (e.g., Subscription Billing).
-- `[ORM / Technology]` - Your exact tools (e.g., Prisma with PostgreSQL).
-- `[List 1-3 core entities]` - Just give high-level names (e.g., Subscriber, Plan, Invoice).
-- `[Explain common query]` - State your most expensive or common lookup so the AI adds the right indexes.
+- `[DATABASE_TYPE]` - PostgreSQL, MySQL, NoSQL, etc.
+- `[UP / DOWN]` - The forward and backward logic.
+- `[LOCKING_ISSUES]` - Preventing production freezes.
+- `[INDEXING_STRATEGIES]` - Performance is a feature.
 
 ## 💡 Pro-Tips
-- **Index upfront:** Making the AI provide indexes *during* the design phase prevents N+1 and slow query problems down the line. It's much harder for an AI to refactor missing indexes later.
+
+- **The "Three-Phase" Move:** For major changes on live data, use the [EXPAND_AND_CONTRACT] pattern: 1. Add the new structure. 2. Double-write to both old and new. 3. Remove the old. Ask the AI to: "Detail the 3-phase move for this specific migration."
+- **Batching for Large Tables:** Never update 10M rows in a single transaction. Ask for: "A [BATCHED_MIGRATION_SCRIPT] that updates 1,000 rows at a time with a sleep interval."
+- **Check the Query Plan:** A migration might fix the data but break the queries. Ask the AI to: "Anticipate the [EXPLAIN_ANALYZE] results for the most common query after this index is added."
+---

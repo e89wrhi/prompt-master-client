@@ -1,9 +1,3 @@
----
-id: youtube_av_format
-topicId: video
-subTopicId: script
-title: YouTube A/V Script Format
----
 # Template: YouTube A/V Script Format
 
 Use this template to generate a classic two-column Audio/Visual script layout, mapping narration text side-by-side with required visual events and motion graphics. 

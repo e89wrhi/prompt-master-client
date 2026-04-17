@@ -1,9 +1,3 @@
----
-id: broll_callouts
-topicId: video
-subTopicId: script
-title: B-Roll Selection & Callouts
----
 # Template: B-Roll Selection & Callouts
 
 Use this template to generate robust visual directions mapping directly to voiceover scripts, ensuring an AI or an editor knows exactly what to show on-screen.

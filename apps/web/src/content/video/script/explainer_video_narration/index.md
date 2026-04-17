@@ -1,9 +1,3 @@
----
-id: explainer_video_narration
-topicId: video
-subTopicId: script
-title: Explainer Video Narration
----
 # Template: Explainer Video Narration
 
 Use this template to distil highly complex products, enterprise software, or technical features into simple, approachable conversational narration scripts.
