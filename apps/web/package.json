@@ -12,7 +12,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
     "preview": "next build && next start",
     "vercel-build": "npm rebuild sharp && npm run sync-prompts && next build",
-    "sync-prompts": "npx tsx scripts/sync-prompts.ts"
+    "sync-prompts": "node scripts/sync-prompts.mjs"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.7.4",
