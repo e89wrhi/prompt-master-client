@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import sharp from 'sharp';
 
 // use: npx tsx scripts/sync-prompts.ts
 // Recursively find all md files
@@ -26,6 +25,16 @@ function getAllMarkdownFiles(dirPath: string, arrayOfFiles: string[] = []) {
 const contentDir = path.join(process.cwd(), 'src/content');
 
 async function sync() {
+  // Dynamically import sharp so a missing/unbuilt native binary doesn't
+  // crash the entire script at startup (e.g. on Vercel before rebuild).
+  let sharpFn: ((input: string) => { metadata: () => Promise<{ width?: number; height?: number }> }) | null = null;
+  try {
+    const sharpModule = await import('sharp');
+    sharpFn = sharpModule.default as any;
+  } catch {
+    console.warn('sharp not available – image dimensions will be skipped.');
+  }
+
   let files: string[];
   try {
     files = getAllMarkdownFiles(contentDir);
@@ -57,12 +66,14 @@ async function sync() {
       const fullPngPath = path.join(process.cwd(), 'public', pngPath);
       if (fs.existsSync(fullPngPath)) {
         item.image = pngPath;
-        try {
-          const metadata = await sharp(fullPngPath).metadata();
-          item.width = metadata.width;
-          item.height = metadata.height;
-        } catch (e) {
-          console.warn(`Error reading metadata for ${fullPngPath}`);
+        if (sharpFn) {
+          try {
+            const metadata = await sharpFn(fullPngPath).metadata();
+            item.width = metadata.width;
+            item.height = metadata.height;
+          } catch (e) {
+            console.warn(`Error reading metadata for ${fullPngPath}`);
+          }
         }
       }
     }
