@@ -26,7 +26,7 @@ export function NavBar() {
           <div className="flex items-center gap-8">
             <Link
               href="/"
-              className="group flex items-center space-x-3 transition-opacity"
+              className="group flex items-center space-x-2 sm:space-x-3 transition-opacity"
             >
               <div className="relative h-8 w-8 overflow-hidden rounded-md transition-transform duration-300 group-hover:scale-105">
                 <Image
@@ -36,12 +36,12 @@ export function NavBar() {
                   className="object-contain"
                 />
               </div>
-              <span className="text-lg font-bold tracking-tight text-neutral-900 dark:text-neutral-50 sm:block">
+              <span className="hidden text-lg font-bold tracking-tight text-neutral-900 dark:text-neutral-50 sm:block">
                 PromptMaster
               </span>
             </Link>
 
-            <nav className="hidden md:flex items-center gap-6">
+            <nav className="flex items-center gap-4 md:gap-6">
               <Link
                 href="/image"
                 className="text-sm font-medium text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-50 transition-colors"
