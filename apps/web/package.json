@@ -8,6 +8,11 @@
     "build": "npm run sync-prompts && next build",
     "start": "next start",
     "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest --watch",
+    "test:run": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:e2e": "playwright test",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
     "preview": "next build && next start",
@@ -15,6 +20,7 @@
     "sync-prompts": "node scripts/sync-prompts.mjs"
   },
   "dependencies": {
+    "@masterprompt/config": "*",
     "@floating-ui/dom": "^1.7.4",
     "@hookform/resolvers": "^3.10.0",
     "@masterprompt/lib": "*",
@@ -52,6 +58,13 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "@masterprompt/config": "*",
+    "vitest": "latest",
+    "@playwright/test": "^1.50.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
     "@masterprompt/typescript-config": "*",
     "@next/eslint-plugin-next": "^15.5.3",
     "@tailwindcss/postcss": "^4.1.13",
